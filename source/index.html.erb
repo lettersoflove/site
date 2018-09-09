@@ -1,13 +1,15 @@
 <div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-
-      LoL Website will be here soon.
-
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
+  <%= partial 'layouts/navbar' %>
+  <%= image_tag "banner.jpg", class: "hero-image" %>
+  <div class="hero-content">
+      <h1>Le Wagon Berlin</h1>
+      <p>Learn to code with us in Berlin</p>
+      <a class="btn btn-primary btn-lg">Start now</a>
+    </div>
   </div>
+</div>
+
+  <p class="about">
+      <%= link_to "More about this template", "about.html" %>
+  </p>
 </div>
