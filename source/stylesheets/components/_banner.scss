@@ -1,10 +1,16 @@
 .hero-content {
-  text-align: center;
+  text-align: left;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 30%;
   transform: translate(-50%, -50%);
   color: white;
+  h1 {
+    margin-bottom: 25px;
+  }
+  p {
+    margin-bottom: 25px;
+  }
 }
 
 .hero-image {
