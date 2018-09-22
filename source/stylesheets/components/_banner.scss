@@ -1,34 +1,23 @@
-.hero-content {
-  text-align: left;
-  position: absolute;
-  top: 50%;
-  left: 30%;
-  transform: translate(-50%, -50%);
+.banner-home {
   color: white;
-  h1 {
-    margin-bottom: 25px;
-  }
-  p {
-    margin-bottom: 25px;
-  }
+  height: 70vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://tomvaillant.com/wp-content/uploads/2018/09/banner.jpg');
 }
 
-.hero-image {
-  background-position: center;
-  background-repeat: no-repeat;
-  object-fit: cover;
-  position: relative;
-  height: 100vh;
-  width: 100%;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
+.banner-home-content {
+  margin-left: 15%;
 }
 
-.banner h1 {
+.banner-home h1 {
   font-size: 50px;
   font-weight: bold;
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
 }
-.banner p {
+.banner-home p {
   font-size: 25px;
   font-weight: lighter;
   color: rgb(255, 255, 255);
