@@ -8,19 +8,38 @@
   background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://tomvaillant.com/wp-content/uploads/2018/09/banner.jpg');
 }
 
+
 .banner-home-content {
-  margin-left: 15%;
+  max-width: 575px;
+  text-align: left;
+  padding-left: 5%;
 }
 
 .banner-home h1 {
-  font-size: 50px;
-  font-weight: bold;
+  font-size: 28px;
+  font-weight: 500;
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
 }
+
 .banner-home p {
-  font-size: 25px;
-  font-weight: lighter;
-  color: rgb(255, 255, 255);
-  opacity: 0.6;
-  margin-bottom: 30px;
+  font-size: 19px;
+  line-height: 1.3em;
+  padding: 20px 0px;
+
+}
+
+.banner-button {
+  height: 48px;
+  line-height: 48px;
+  background-color: #369ff4;
+  transition: background-color .15s linear;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  border-radius: 4px;
+  border: 0;
+  font-size: 15px;
+  padding: 0 20px;
+  font-weight: 500;
+  display: inline-block;
+  color: #fff;
 }
