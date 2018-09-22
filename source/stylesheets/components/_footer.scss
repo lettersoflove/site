@@ -1,0 +1,99 @@
+.footer {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-lists {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  border-bottom: 1px solid black;
+  margin-bottom: 30px;
+  align-self: center;
+  width: 95%;
+}
+
+.footer-ul {
+  list-style: none;
+  padding-left: 0;
+  padding-bottom: 50px;
+  font-size: 15px;
+  letter-spacing: .2px;
+  li {
+    margin: 0 55px;
+  }
+}
+
+li.footer-ul-header {
+  font-weight: bold;
+  color: black;
+  padding-bottom: 5px;
+}
+
+.footer-social {
+  background: #F4F4F4;
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+  color: rgba(0,0,0,0.3);
+  background-color: white;
+  a {
+    padding-right: 10px;
+  }
+}
+
+.footer-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-flex-row {
+  display: flex;
+  flex-flow: wrap;
+  align-self: center;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
+
+.footer-pages {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.footer-point {
+  padding: 0px 10px;
+}
+
+.footer-link {
+  color: black;
+  font-size: 12px;
+}
+
+.footer-subscribe {
+  background-color: white;
+}
+
+.footer-copyright {
+  padding: 20px 0px;
+  color: black;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
