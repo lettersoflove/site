@@ -5,49 +5,6 @@
   position: relative;
 }
 
-.home-facts {
-  margin-bottom: 45px;
-  display: flex;
-  flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.home-fact {
-  text-transform: uppercase;
-  width: 50%;
-  z-index: 100;
-  h2 {
-    font-size: 55px;
-    font-weight: bold;
-  }
-  h4 {
-    font-size: 30px;
-  }
-}
-
-.home-image-text {
-  width: 65%;
-  h2 {
-  font-size: 75px;
-  font-weight: bold;
-}
-h4 {
-  font-size: 45px;
-}
-}
-
-.home-fact-details {
-  z-index: 100;
-  width: 75%;
-  margin-bottom: 100px;
-  h4 {
-    font-size: 25px;
-    text-transform: uppercase;
-    font-weight: bold;
-  }
-}
-
 .home-bottom-image {
   height: 70vh;
   background-size: cover !important;
@@ -72,12 +29,24 @@ h4 {
   }
 }
 
+.home-students-header {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  h2 {
+    font-size: 24px;
+  }
+}
+
 .mission-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 20px;
   padding-bottom: 20px;
+  align-self: center;
 }
 
 .fact-image {
@@ -132,25 +101,46 @@ h4 {
 // HOME IMAGES
 
 .home-image-one {
-  color: white;
   height: 90vh;
   background-size: cover !important;
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  justify-content: flex-end;
+  position: relative;
   padding-left: 45px;
-  padding-bottom: 45px;
+  margin-top: 50px;
   h2, h4 {
     color: black;
   }
   background-image: url('https://tomvaillant.com/wp-content/uploads/2018/09/letter-fade.jpg');
 }
 
+.home-image-one-text {
+  width: 50%;
+  position: absolute;
+  top: -140px;
+  left: 80px;
+  h2 {
+  font-size: 75px;
+  font-weight: bold;
+  }
+  h4 {
+    font-size: 45px;
+  }
+}
 
-.home-image-four {
+.home-image-two-text {
+  width: 65%;
+  h2 {
+  font-size: 75px;
+  font-weight: bold;
+  }
+  h4 {
+    font-size: 45px;
+  }
+}
+
+.home-image-two {
   height: 90vh;
   background-size: cover !important;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -160,3 +150,8 @@ h4 {
     color: black;
   }
 }
+
+#mission-margin {
+  margin-bottom: 200px;
+}
+
