@@ -2,6 +2,7 @@
   <%= partial 'layouts/navbar' %>
   <div class="banner-home">
       <div class="banner-home-content col-xs-10 col-sm-8 col-md-6 col-xl-4">
+        <div class="empty-banner"></div>
         <h1>One smile at a time</h1>
         <p>Help us make a difference to global refugee crises using empathy, education and empowerment</p>
         <a class="banner-button">Send a letter</a>
@@ -9,87 +10,94 @@
   </div>
 
   <div class="home-mission">
-    <div class="home-mission-header col-xs-10 col-md-8 col-xl-6 col-xl-offset-3 col-md-offset-2">
+    <div id="mission-margin" class="home-mission-header col-xs-10 col-md-8 col-xl-6 col-xl-offset-3 col-md-offset-2">
       <h2>138,700 unaccompanied and separated children sought refuge and asylum in 2017. We're on a mission to help them.</h2>
     </div>
 
-    <div class="home-facts col-xs-10 col-md-8 col-xl-6">
-      <div class="home-fact home-fact-right">
+    <div class="home-image-one">
+      <div class="home-image-one-text">
         <h2>33,478<h2>
-        <h4>handwritten letters delivered</h4>
-        <div class="mission-circle circle-one"></div>
-      </div>
-      <div class="fact-image home-fact-right" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://tomvaillant.com/wp-content/uploads/2018/09/DSC_0242.jpg');"></div>
-      <div class="home-fact-details home-fact-right">
-        <h4>Header</h4>
+        <h4>Handwritten letters</h4>
         <p>A handwritten letter brings an old-school charm like no other form of communication. This tangible token of love is us, extending a hand in friendship to the millions of refugee children who need our support; to let them know that they are not forgotten but are loved and cared for.</p>
       </div>
-      <div class="home-fact home-fact-left">
-        <h2>8,029</h2>
-        <h4>students sensitised</h4>
-        <div class="mission-circle circle-two"></div>
-      </div>
-      <div class="fact-image home-fact-left" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://tomvaillant.com/wp-content/uploads/2018/09/DSC_0242.jpg');"></div>
-      <div class="home-fact-details home-fact-left">
-        <h4>Header</h4>
-        <p>In a time where humanitarian conflicts of various magnitudes are unfolding by the hour, it is imperative that we raise aware, empathic global citizens in our classrooms. Our Sensitisation Program uses the Syrian War and...</p>
-      </div>
-      <div class="home-fact home-fact-right">
-        <h2>21</h2>
-        <h4>Student Ambassadors</h4>
-        <div class="mission-circle circle-three"></div>
-      </div>
-      <div class="fact-image home-fact-right" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://tomvaillant.com/wp-content/uploads/2018/09/DSC_0242.jpg');"></div>
-      <div class="home-fact-details home-fact-right">
-        <h4>Header</h4>
-        <p>Our Student Ambassadors form a global network of motivated teenagers who have the will to challenge and change social issues. They come from different contries and contexts, united with their passion to inspire communities harnessing the power of a handwritten letter.</p>
-      </div>
-      <div class="home-fact home-fact-left">
-        <h2>350</h2>
-        <h4>Pen Pal pairs across borders</h4>
-        <div class="mission-circle circle-four"></div>
-      </div>
-      <div class="fact-image home-fact-left" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://tomvaillant.com/wp-content/uploads/2018/09/DSC_0242.jpg');"></div>
-      <div class="home-fact-details home-fact-left">
-        <h4>Header</h4>
-        <p>The Pen Pal Project for children and youth aims at fostering friendships across lines of conflict. We connect school students with internally displaced children in Syria, those beseiged in Gaza and Syrian refugee children in Turkey. It gives them the opportunity to perceive people of other countries beyond</p>
-      </div>
-    </div>
-    <div class="home-mission-header col-xs-10 col-md-8 col-xl-6 col-xl-offset-3 col-md-offset-2">
-      <h2>Here's how you can help!</h2>
     </div>
 
-    <div class="mission-cards">
-      <div class="card col-xs-10 col-sm-8 col-md-4 col-xl-3">
-        <div class="card-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://tomvaillant.com/wp-content/uploads/2018/09/DSC_0242.jpg');"></div>
-        <div class="card-content">
-          <p>Send a letter</p>
-          <div class="card-button"><a href="#">click</a></div>
+    <h2 class="home-students-header">Our Students</h2>
+    <div class="student-section">
+      <div class="student-card col-xs-8 col-sm-6 col-md-4 col-xl-4">
+        <div class="student-card-content">
+          <h2>8,029</h2>
+          <h4>Students Sensitised</h4>
+          <p>In a time where humanitarian conflicts of various magnitudes are unfolding by the hour, it is imperative that we raise aware, empathic global citizens in our classrooms. Our Sensitisation Program uses the Syrian War and...</p>
+          <div class="student-card-empty"></div>
+          <div id="student-button" class="student-card-button"><a href="#">Book a workshop</a></div>
         </div>
       </div>
-      <div class="card col-xs-10 col-sm-8 col-md-4 col-xl-3">
-        <div class="card-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://tomvaillant.com/wp-content/uploads/2018/09/DSC_0242.jpg');"></div>
-        <div class="card-content">
-          <p>Raise awareness</p>
-          <div class="card-button"><a href="#">click</a></div>
-        </div>
-      </div>
-      <div class="card col-xs-10 col-sm-8 col-md-4 col-xl-3">
-        <div class="card-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://tomvaillant.com/wp-content/uploads/2018/09/DSC_0242.jpg');"></div>
-        <div class="card-content">
-          <p>Raise awareness</p>
-          <div class="card-button"><a href="#">click</a></div>
-        </div>
-      </div>
-      <div class="card col-xs-10 col-sm-8 col-md-4 col-xl-3">
-        <div class="card-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://tomvaillant.com/wp-content/uploads/2018/09/DSC_0242.jpg');"></div>
-        <div class="card-content">
-          <p>Raise awareness</p>
-          <div class="card-button"><a href="#">click</a></div>
+      <div class="student-card col-xs-8 col-sm-6 col-md-4 col-xl-4">
+        <div class="student-card-content">
+          <h2>21</h2>
+          <h4>Student Ambassadors</h4>
+          <p>Our Student Ambassadors form a global network of motivated teenagers who have the will to challenge and change social issues. They come from different contries and contexts, united with their passion to inspire communities harnessing the power of a handwritten letter.</p>
+          <div class="student-card-empty"></div>
+          <div id="ambassador-button" class="student-card-button"><a href="#">Join our ambassadors</a></div>
         </div>
       </div>
     </div>
-    <div class="home-facts-image">
+
+    <div class="home-image-two">
+      <div class="home-image-two-text">
+        <h2>350</h2>
+        <h4>Pen Pal pairs across borders</h4>
+        <p>The Pen Pal Project for children and youth aims at fostering friendships across lines of conflict. We connect school students with internally displaced children in Syria, those beseiged in Gaza and Syrian refugee children in Turkey. It gives them the opportunity to perceive people of other countries beyond</p>
+        <div class="card-button"><a href="#">Learn more</a></div>
+      </div>
+    </div>
+    <div class="video-block">
+      <div class="video-component col-xs-12 col-sm-12 col-md-10 col-xl-8">
+        <div class="youtube-embed">
+          <iframe id="ytplayer" class="col-xs-10 col-sm-6 col-md-5 col-xl-4" type="text/html" src="https://www.youtube.com/embed/WbuEs0o8r4o&t=4s" frameborder="0" allow="autoplay; encrypted-media"allowfullscreen></iframe>
+        </div>
+        <div class="video-headline hidden-xs hidden-sm">
+          <p>We've done</p>
+          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="home-mission-header col-xs-10 col-md-8 col-xl-6">
+        <h2>Here are some ways you can help!</h2>
+    </div>
+    <div class="mission-cards col-xs-12 col-sm-12 col-md-10 col-xl-8">
+      <div id="card-one" class="card col-xs-8 col-sm-6 col-md-4 col-xl-4">
+        <div class="card-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://tomvaillant.com/wp-content/uploads/2018/09/DSC_0242.jpg');"></div>
+        <div class="card-content"3
+          <p>lorem ipsum</p>
+          <div class="card-button"><a href="#">send a letter</a></div>
+        </div>
+      </div>
+      <div id="card-two" class="card col-xs-8 col-sm-6 col-md-4 col-xl-4">
+        <div class="card-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://tomvaillant.com/wp-content/uploads/2018/09/DSC_0242.jpg');"></div>
+        <div class="card-content">
+          <p>lorem ipsum</p>
+          <div class="card-button"><a href="#">raise awareness</a></div>
+        </div>
+      </div>
+      <div id="card-three" class="card col-xs-8 col-sm-6 col-md-4 col-xl-4">
+        <div class="card-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://tomvaillant.com/wp-content/uploads/2018/09/DSC_0242.jpg');"></div>
+        <div class="card-content">
+          <p>Become a student ambassador</p>
+          <div class="card-button"><a href="#">join us</a></div>
+        </div>
+      </div>
+      <div id="card-four" class="card ccol-xs-8 col-sm-6 col-md-4 col-xl-4">
+        <div class="card-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://tomvaillant.com/wp-content/uploads/2018/09/DSC_0242.jpg');"></div>
+        <div class="card-content">
+          <p>Join the Pen Pal program</p>
+          <div class="card-button"><a href="#">grab a pen</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="home-bottom-image">
     </div>
   </div>
   <%= partial 'layouts/footer' %>

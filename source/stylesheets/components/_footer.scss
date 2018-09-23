@@ -9,8 +9,7 @@
   display: flex;
   flex-flow: wrap;
   justify-content: space-around;
-  border-bottom: 1px solid black;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   align-self: center;
   width: 95%;
 }
@@ -21,8 +20,15 @@
   padding-bottom: 50px;
   font-size: 15px;
   letter-spacing: .2px;
-  li {
-    margin: 0 55px;
+}
+
+.footer-ul-list a {
+  color: black;
+  text-decoration: none;
+  :hover {
+    text-decoration: none;
+    font-weight: 700;
+    opacity: 0.3;
   }
 }
 
@@ -36,17 +42,18 @@ li.footer-ul-header {
   background: #F4F4F4;
   display: flex;
   align-items: center;
-  padding: 20px 0px;
   color: rgba(0,0,0,0.3);
   background-color: white;
   a {
     padding-right: 10px;
+    color: black;
   }
 }
 
 .footer-flex-column {
   display: flex;
   flex-direction: column;
+  margin-bottom: 25px;
 }
 
 .footer-flex-row {
@@ -55,6 +62,8 @@ li.footer-ul-header {
   align-self: center;
   width: 80%;
   justify-content: space-between;
+  border-top: 1px solid gray;
+  padding-top: 25px;
 }
 
 .footer-links a {
@@ -85,6 +94,14 @@ li.footer-ul-header {
 .footer-link {
   color: black;
   font-size: 12px;
+  a {
+    color: black;
+    text-decoration: none;
+    :hover {
+      text-decoration: none;
+      color: black;
+    }
+  }
 }
 
 .footer-subscribe {
@@ -92,8 +109,8 @@ li.footer-ul-header {
 }
 
 .footer-copyright {
-  padding: 20px 0px;
   color: black;
+  padding-bottom: 40px;
   font-size: 12px;
   padding-bottom: 10px;
 }
