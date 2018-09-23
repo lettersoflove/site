@@ -6,6 +6,10 @@
   align-items: center;
   justify-content: left;
   background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://tomvaillant.com/wp-content/uploads/2018/09/banner.jpg');
+  a:hover {
+    text-decoration: none !important;
+    color: white !important;
+  }
 }
 
 
@@ -42,4 +46,9 @@
   font-weight: 500;
   display: inline-block;
   color: #fff;
+  cursor: pointer;
+}
+
+.banner-button:hover {
+  background-color: #70bbf7;
 }

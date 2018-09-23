@@ -4,12 +4,17 @@
   margin: 20px 35px;
   position: relative;
   box-shadow: 0 18px 35px rgba(50,50,93,.1),0 8px 15px rgba(0,0,0,.07);
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
 }
 
 .card-image {
   background-size: cover !important;
   background-position: center;
   height: 250px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
 
 .card-button {
@@ -27,15 +32,35 @@
   font-weight: 500;
   display: inline-block;
   color: #fff;
+  cursor: pointer;
   a {
     text-decoration: none;
     color: white;
   }
 }
 
+.card-button:hover {
+  background-color: #70bbf7;
+}
+
 .card-content {
-  padding-top: 15px;
+  margin-top: 5%;
   text-align: center;
   justify-content: center;
   flex-direction: column;
+}
+
+// CARD COLORs
+
+#card-one {
+  background-color: #bcd4de;
+}
+#card-two {
+  background-color: #9b9ece;
+}
+#card-three {
+  background-color: #af9fa5;
+}
+#card-four {
+  background-color: #909cc2;
 }

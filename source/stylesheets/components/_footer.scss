@@ -36,11 +36,11 @@ li.footer-ul-header {
   background: #F4F4F4;
   display: flex;
   align-items: center;
-  padding: 20px 0px;
   color: rgba(0,0,0,0.3);
   background-color: white;
   a {
     padding-right: 10px;
+    color: black;
   }
 }
 
@@ -85,6 +85,14 @@ li.footer-ul-header {
 .footer-link {
   color: black;
   font-size: 12px;
+  a {
+    color: black;
+    text-decoration: none;
+    :hover {
+      text-decoration: none;
+      color: black;
+    }
+  }
 }
 
 .footer-subscribe {
@@ -92,8 +100,8 @@ li.footer-ul-header {
 }
 
 .footer-copyright {
-  padding: 20px 0px;
   color: black;
+  padding-bottom: 40px;
   font-size: 12px;
   padding-bottom: 10px;
 }

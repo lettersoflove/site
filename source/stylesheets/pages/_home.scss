@@ -37,10 +37,10 @@
   }
 }
 
-.home-facts-image {
+.home-bottom-image {
   height: 70vh;
   background-size: cover !important;
-  background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://tomvaillant.com/wp-content/uploads/2018/09/DSC_0188.jpg');
+  background-image: url('https://tomvaillant.com/wp-content/uploads/2018/09/DSC_0188-1.jpg');
   margin-bottom: 50px;
 }
 
@@ -50,16 +50,23 @@
   background-color: white;
 }
 
-.home-mission-header h2 {
+.home-mission-header {
   text-align: center;
-  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  h2 {
+    font-size: 24px;
+  }
 }
 
 .mission-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 50px 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .fact-image {
@@ -108,4 +115,46 @@
 .circle-four {
   background-color: #909cc2;
   position: absolute;
+}
+
+
+// VIDEO BLOCK
+
+.video-block {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 600px;
+  background-color: #369ff4;
+}
+
+.video-component {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  padding: 0px 0px;
+}
+
+.youtube-embed {
+  flex: 1;
+}
+
+#ytplayer {
+  min-width: 450px;
+  height: 350px;
+}
+
+.video-headline {
+  flex: 1;
+  min-width: 300px;
+  background-color: white;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 15px;
 }
