@@ -1,0 +1,56 @@
+.team-page {
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+}
+
+.team-header {
+  text-align: center;
+  border-bottom: 0.7px solid gray;
+  align-self: center;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+  h2 {
+    margin-top: 0px;
+  }
+  h4 {
+
+  }
+}
+
+.team-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.team-list-item {
+  display: flex;
+  flex-wrap: wrap;
+  height: 250px;
+  margin-bottom: 50px;
+}
+
+.team-description {
+  min-width: 400px;
+  padding-left: 40px;
+  h4 {
+    font-size: 20px;
+    font-weight: 800;
+  }
+  p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+.team-photo {
+  min-width: 300px;
+  border-radius: 8px;
+}
+
+#pooja {
+  object-fit: cover !important;
+  background-image: url('https://tomvaillant.com/wp-content/uploads/2018/09/Screen-Shot-2018-04-08-at-1.09.22-AM.png');
+}

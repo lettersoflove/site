@@ -32,6 +32,10 @@
   margin-top: 2px;
 }
 
+.navbar-flex {
+  margin-left: 10px;
+}
+
 .navbar-right {
   margin: 15px 0px;
   text-transform: uppercase;
@@ -51,6 +55,15 @@
   font-size: 14px;
 }
 .navbar-link:hover {
+  opacity: 0.3;
+  text-decoration: none;
+}
+
+.navbar-link-dark {
+  color: black;
+  font-size: 14px;
+}
+.navbar-link-dark:hover {
   opacity: 0.3;
   text-decoration: none;
 }
