@@ -39,10 +39,6 @@
     font-size: 20px;
     font-weight: 800;
   }
-  p {
-    font-size: 14px;
-    font-weight: 500;
-  }
 }
 
 .team-photo {
@@ -50,7 +46,11 @@
   border-radius: 8px;
 }
 
-#pooja {
-  object-fit: cover !important;
-  background-image: url('https://tomvaillant.com/wp-content/uploads/2018/09/Screen-Shot-2018-04-08-at-1.09.22-AM.png');
+.member-role p {
+  font-weight: 700 !important;
+}
+
+.member-description {
+  font-size: 14px;
+  font-weight: 500;
 }

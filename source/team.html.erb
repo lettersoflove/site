@@ -6,21 +6,16 @@
       <h4>Get to know us</h4>
     </div>
     <div class="team-list">
-
+      <% data.team.each do |member| %>
       <div class="team-list-item col-xs-12 col-sm-12 col-md-10 col-xl-8">
-        <div id="pooja" class="team-photo"></div>
+        <div class="team-photo" style="background-image: url(<%= member.picture %>);"></div>
         <div class="team-description">
-          <h4>Pooja Pradeep</h4>
-          <p>lorem ipsum lorem ipsum</p>
+          <h4><%= member.name %></h4>
+          <p class="member-role"><%= member.role %></p>
+          <p class="member-description"><%= member.description %></p>
         </div>
       </div>
-      <div class="team-list-item col-xs-12 col-sm-12 col-md-10 col-xl-8">
-        <div id="pooja" class="team-photo"></div>
-        <div class="team-description">
-          <h4>Pooja Pradeep</h4>
-          <p>lorem ipsum lorem ipsum</p>
-        </div>
-      </div>
+      <% end %>
     </div>
   </div>
   <%= partial 'layouts/footer' %>

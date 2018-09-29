@@ -25,11 +25,11 @@
 .footer-ul-list a {
   color: black;
   text-decoration: none;
-  :hover {
-    text-decoration: none;
-    font-weight: 700;
-    opacity: 0.3;
-  }
+}
+
+.footer-ul-list a:hover {
+  text-decoration: underline;
+  opacity: 0.3;
 }
 
 li.footer-ul-header {
