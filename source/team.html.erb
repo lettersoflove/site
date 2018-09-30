@@ -8,8 +8,10 @@
     <div class="team-list">
       <% data.team.each do |member| %>
       <div class="team-list-item col-xs-12 col-sm-12 col-md-10 col-xl-8">
-        <div class="team-photo" style="background-image: url(<%= member.picture %>);"></div>
-        <div class="team-description">
+        <div class="center-cropped"
+             style="background-image: url('<%= member.picture %>');">
+        </div>
+        <div class="team-description col-xl-8 col-md-8 col-sm-8 col-xs-10">
           <h4><%= member.name %></h4>
           <p class="member-role"><%= member.role %></p>
           <p class="member-description"><%= member.description %></p>
