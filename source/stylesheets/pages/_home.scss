@@ -60,15 +60,20 @@
 // VIDEO BLOCK
 
 .video-block {
-  // margin-top: 30px;
+  width: 100%;
+  min-height: 600px;
+  background-color: #369ff4;
   display: flex;
   justify-content: center;
-  text-align: center;
-  width: 100%;
-  height: 600px;
   align-items: center;
+  padding: 75px 35px;
+}
+
+.video-flex {
+  display: flex;
   background-color: #369ff4;
-  padding: 0px 10%;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .video-component {
@@ -91,11 +96,17 @@
 .video-headline {
   background-color: white;
   display: flex;
-  width: 55%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 15px 0px;
+  padding: 4%;
+  text-align: center;
+  h4 {
+    padding-bottom: 10px;
+  }
+  p {
+    font-size: 16px;
+  }
 }
 
 // HOME IMAGES
@@ -144,14 +155,14 @@
   display: flex;
   flex-direction: column;
   text-align: left;
-  align-items: center;
+  align-items: left;
   background-image: url('https://tomvaillant.com/wp-content/uploads/2018/09/ourpenpals-1.jpg');
   h2, h4, p {
     color: black;
   }
 }
 
-#mission-margin {
-  margin-bottom: 200px;
-}
+// #mission-margin {
+//   margin-bottom: 200px;
+// }
 
