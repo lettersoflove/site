@@ -1,0 +1,33 @@
+.static-header {
+  margin-bottom: 40px;
+  h4 {
+    font-weight: 700;
+    font-size: 35px;
+  }
+}
+
+.static-description {
+  background-color: white;
+  p {
+    font-weight: 500;
+  }
+}
+
+.static-content {
+  padding: 20px 20px;
+  align-self: center;
+  margin-bottom: 50px;
+}
+
+.static-page {
+  background-color: white;
+  color: black;
+  height: 100vh;
+  position: relative;
+}
+
+.static-page-content {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}

@@ -62,40 +62,40 @@
 .video-block {
   // margin-top: 30px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   text-align: center;
   width: 100%;
   height: 600px;
+  align-items: center;
   background-color: #369ff4;
+  padding: 0px 10%;
 }
 
 .video-component {
-  display: flex;
-  flex-wrap: wrap;
-  align-self: center;
-  padding: 0px 0px;
-}
-
-.youtube-embed {
-  flex: 1;
-}
-
-#ytplayer {
-  min-width: 450px;
-  height: 350px;
+  position: relative;
+  &:after {
+    content: "";
+    position: relative;
+    display: block;
+    padding-top: (100% * 9 / 16);
+  }
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .video-headline {
-  flex: 1;
-  min-width: 300px;
   background-color: white;
-  height: 350px;
   display: flex;
+  width: 55%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0px 15px;
+  padding: 15px 0px;
 }
 
 // HOME IMAGES

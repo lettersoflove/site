@@ -6,15 +6,15 @@
       <h4>Get to know us</h4>
     </div>
     <div class="team-list">
-      <% data.team.each do |member| %>
+      <% data.students.each do |student| %>
       <div class="team-list-item col-xs-12 col-sm-12 col-md-10 col-xl-8">
         <div class="center-cropped"
-             style="background-image: url('<%= member.picture %>');">
+             style="background-image: url('<%= student.picture %>');">
         </div>
         <div class="team-description col-xl-8 col-md-8 col-sm-8 col-xs-10">
-          <h4><%= member.name %></h4>
-          <p class="member-role"><%= member.role %></p>
-          <p class="member-description"><%= member.description %></p>
+          <h4><%= student.name %></h4>
+          <p class="member-role"><%= student.role %></p>
+          <p class="member-description"><%= student.description %></p>
         </div>
       </div>
       <% end %>
