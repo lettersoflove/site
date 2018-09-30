@@ -1,1 +1,25 @@
+.gallery-page {
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+  background-color: white;
+}
 
+.gallery-images {
+  padding: 3% 15%;
+  background-color: white;
+}
+
+.gallery-photo {
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: inherit !important;
+  }
+}
