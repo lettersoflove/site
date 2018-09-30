@@ -8,7 +8,7 @@
 .home-bottom-image {
   height: 70vh;
   background-size: cover !important;
-  background-image: url('https://tomvaillant.com/wp-content/uploads/2018/09/DSC_0188-1.jpg');
+  background-image: url('https://tomvaillant.com/wp-content/uploads/2018/09/DSC_0188-3.jpg');
   margin-bottom: 50px;
 }
 
@@ -104,19 +104,17 @@
   height: 90vh;
   background-size: cover !important;
   position: relative;
-  padding-left: 45px;
   margin-top: 50px;
   h2, h4 {
     color: black;
   }
-  background-image: url('https://tomvaillant.com/wp-content/uploads/2018/09/letter-fade.jpg');
+  background-image: url('https://tomvaillant.com/wp-content/uploads/2018/09/letter-fade-1.jpg');
 }
 
 .home-image-one-text {
-  width: 50%;
-  position: absolute;
-  top: -140px;
-  left: 80px;
+  max-width: 575px;
+  text-align: left;
+  padding-left: 5%;
   h2 {
   font-size: 75px;
   font-weight: bold;
@@ -127,7 +125,9 @@
 }
 
 .home-image-two-text {
-  width: 65%;
+  max-width: 575px;
+  text-align: left;
+  padding-left: 5%;
   h2 {
   font-size: 75px;
   font-weight: bold;
@@ -145,7 +145,7 @@
   flex-direction: column;
   text-align: left;
   align-items: center;
-  background-image: url('https://tomvaillant.com/wp-content/uploads/2018/09/ourpenpals.jpg');
+  background-image: url('https://tomvaillant.com/wp-content/uploads/2018/09/ourpenpals-1.jpg');
   h2, h4, p {
     color: black;
   }

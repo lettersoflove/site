@@ -1,10 +1,8 @@
 // HOMEPAGE NAVBAR
 .navbar {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Cabin', sans-serif;
   background: transparent;
   transition: all 0.3s ease;
-  // display: flex;
-  // justify-content: space-between;
   z-index: 1000;
   position: absolute;
   top: 7px;
@@ -12,11 +10,12 @@
   margin-left: 5%;
   a {
     color: white;
-    :hover {
-      opacity: 0.3;
-      text-decoration: none !important;
-    }
   }
+}
+
+.navbar-link:hover {
+  opacity: 0.6;
+  text-decoration: none;
 }
 
 /* Logo */
@@ -53,19 +52,6 @@
 .navbar-link {
   color: white;
   font-size: 14px;
-}
-.navbar-link:hover {
-  opacity: 0.3;
-  text-decoration: none;
-}
-
-.navbar-link-dark {
-  color: black;
-  font-size: 14px;
-}
-.navbar-link-dark:hover {
-  opacity: 0.3;
-  text-decoration: none;
 }
 
 /* Dropdown menu */
@@ -118,23 +104,29 @@
 // STATIC PAGE NAVBAR
 
 .navbar-static {
-  font-family: "Roboto", sans-serif;
-  background: transparent;
+  font-family: 'Cabin', sans-serif;
+  background: white;
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
   transition: all 0.3s ease;
-  // display: flex;
-  // justify-content: space-between;
-  z-index: 1000;
-  position: absolute;
-  top: 7px;
-  width: 90%;
-  margin-left: 5%;
+  height: 70px;
+  display: flex;
+  padding: 0px 30px;
+  align-items: center;
+  position: relative;
+  width: 100%;
   a {
-    color: white;
-    :hover {
-      opacity: 0.3;
-      text-decoration: none !important;
-    }
+    color: black;
   }
+}
+
+.navbar-static-link:hover {
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+/* Logo */
+.navbar-logo img {
+  height: 50px;
 }
 
 /* Right section */
@@ -150,9 +142,11 @@
 }
 
 .navbar-static-right {
-  margin: 15px 0px;
   text-transform: uppercase;
   display: flex;
+  position: absolute;
+  right: 20px;
+  top: 20px;
   align-items: center;
 }
 
@@ -167,19 +161,14 @@
   color: black;
   font-size: 14px;
 }
-.navbar-static-link:hover {
-  opacity: 0.3;
-  text-decoration: none;
-}
 
 /* Dropdown menu */
 
 .navbar-static-burger-menu {
   font-size: 20px;
+  color: black;
   position: absolute;
-  top: -30px;
   right: 15px;
-  color: white;
 }
 
 .navbar-static-dropdown-menu {
