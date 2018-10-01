@@ -19,7 +19,8 @@
 
 .card-button {
   margin-top: 5px;
-  height: 48px;
+  margin-bottom: 15px;
+  min-height: 48px;
   line-height: 48px;
   background-color: #369ff4;
   transition: background-color .15s linear;
@@ -45,6 +46,7 @@
 
 .card-content {
   margin-top: 5%;
+  padding: 0px 5px;
   text-align: center;
   justify-content: center;
   flex-direction: column;
@@ -82,7 +84,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 300px;
+  min-height: 300px;
 }
 
 .student-card-content {
@@ -143,7 +145,7 @@
 #ambassador-button {
   background-color: #9b9ece;
   margin-top: 5px;
-  height: 48px;
+  min-height: 48px;
   line-height: 48px;
   transition: background-color .15s linear;
   text-transform: uppercase;
@@ -170,7 +172,7 @@
 #student-button {
   background-color: #af9fa5;
   margin-top: 5px;
-  height: 48px;
+  min-height: 48px;
   line-height: 48px;
   transition: background-color .15s linear;
   text-transform: uppercase;

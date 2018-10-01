@@ -22,7 +22,7 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
+  margin-top: 60px;
   margin-bottom: 40px;
   h2 {
     font-size: 24px;
@@ -113,7 +113,7 @@
 // HOME IMAGES
 
 .home-image-one {
-  height: 90vh;
+  min-height: 90vh;
   background-size: cover !important;
   position: relative;
   margin-top: 50px;
@@ -140,6 +140,7 @@
   max-width: 575px;
   text-align: left;
   padding-left: 5%;
+  margin-bottom: 15px;
   h2 {
   font-size: 75px;
   font-weight: bold;
@@ -150,7 +151,7 @@
 }
 
 .home-image-two {
-  height: 90vh;
+  min-height: 90vh;
   background-size: cover !important;
   margin-top: 50px;
   display: flex;
@@ -162,8 +163,4 @@
     color: black;
   }
 }
-
-// #mission-margin {
-//   margin-bottom: 200px;
-// }
 
