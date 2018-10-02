@@ -34,6 +34,15 @@
   position: relative;
 }
 
+.static-video-block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
 .static-page-content {
   background-color: white;
   display: flex;
@@ -42,4 +51,12 @@
 
 #changemakers-btn {
   margin-top: 30px;
+}
+
+.static-bottom-image {
+  height: 540px;
+  margin-top: 50px;
+  background-size: cover !important;
+  background-image: url('https://tomvaillant.com/wp-content/uploads/2018/10/IMG_3288.jpg');
+  margin-bottom: 50px;
 }
