@@ -101,6 +101,18 @@
   border-radius: 4px;
 }
 
+#navbar-home-dropdown {
+  background: transparent;
+  color: white;
+}
+
+.navbar-right-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  &:hover {
+    text-decoration: none !important;
+  }
+}
 // STATIC PAGE NAVBAR
 
 .navbar-static {
@@ -185,6 +197,7 @@
   line-height: 22px !important;
   padding: 10px 20px;
 }
+
 .navbar-static-dropdown-menu li > a:hover {
   background: transparent !important;
   color: black !important;
@@ -214,3 +227,6 @@
   top: 40px;
 }
 
+.dropdown-menu-static {
+  left: -90px !important;
+}
