@@ -3,6 +3,7 @@
   flex-direction: column;
   padding-top: 150px;
   background-color: white;
+  position: relative;
 }
 
 .gallery-images {
@@ -26,4 +27,28 @@
 
 .card-memories-content {
   color: black;
+  font-size: 24px !important;
+}
+
+.gallery-return {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  border: solid 0.5px $gray;
+  a {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    padding: 7px;
+    &:hover {
+      color: $blue;
+    }
+  }
+}
+
+.memories-cards-flex {
+  display: flex;
+  margin-bottom: 75px;
+  justify-content: center;
+  flex-wrap: wrap;
 }

@@ -1,0 +1,24 @@
+---
+title: "Letters of Love - Be my Valentine"
+---
+
+<div id="home">
+  <%= partial 'layouts/navbar_static' %>
+  <div class="gallery-page">
+    <div class="gallery-return">
+      <a href="/memories.html"><i class="fas fa-arrow-left"></i></a>
+    </div>
+    <div class="team-header">
+      <h2>Be my Valentine</h2>
+      <h4>A few of our favourite memories...</h4>
+    </div>
+    <div class="gallery-images">
+      <% data.valentine.each do |item| %>
+        <div class="gallery-photo">
+          <img src="<%= item.picture %>" alt="">
+        </div>
+      <% end %>
+    </div>
+  </div>
+  <%= partial 'layouts/footer' %>
+</div>
