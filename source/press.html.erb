@@ -9,17 +9,19 @@ title: "Press - Letters of Love"
       <h2>Press</h2>
       <h4>Our media partners</h4>
     </div>
-    <div class="partners-section col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-xl-6 col-xl-offset-3">
+    <div class="presskit">
+      <p>Download our press kit <a href="">here</a>.</p>
+    </div>
+    <div class="partners-section col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3 col-xl-4 col-xl-offset-4">
       <% data.media.each do |partner| %>
-        <div class="partner-box" href="<% partner.link %>">
+        <% link_to "#{partner.link}", target: "_blank" do %>
+        <div class="partner-box">
           <div class="center-cropped-logo"
                style="background-image: url('<%= partner.logo %>');">
           </div>
         </div>
+        <% end %>
       <% end %>
-    </div>
-    <div class="presskit-link col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-xl-6 col-xl-offset-3">
-      <p>Download our press kit <a href="">here</a>.</p>
     </div>
   </div>
   <%= partial 'layouts/footer' %>
