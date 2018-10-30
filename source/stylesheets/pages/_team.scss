@@ -56,3 +56,14 @@
   font-size: 14px;
   font-weight: 500;
 }
+
+.team-tabs {
+  background: white;
+  display: flex;
+  padding: 10px 10px 0 10px;
+}
+
+.tab.active {
+  background: white;
+  color: black;
+}
