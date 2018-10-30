@@ -1,0 +1,28 @@
+.partners-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: white;
+  justify-content: center;
+  margin-bottom: 65px; }
+
+.partner-box {
+  border: 0.6px solid gray;
+  padding: 25px;
+  margin: 10px; }
+  .partner-box a {
+    cursor: pointer; }
+
+.center-cropped-logo {
+  min-width: 90px;
+  min-height: 90px;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.presskit-link {
+  margin-bottom: 50px; }
+
+.presskit {
+  text-align: center;
+  margin-bottom: 30px; }
