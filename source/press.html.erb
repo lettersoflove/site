@@ -11,7 +11,7 @@ title: "Press - Letters of Love"
     </div>
     <div class="partners-section">
       <% data.media.each do |partner| %>
-        <div class="partner-box">
+        <div class="partner-box" href="<% partner.link %>">
           <div class="center-cropped-logo"
                style="background-image: url('<%= partner.logo %>');">
           </div>
