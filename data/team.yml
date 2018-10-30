@@ -2,107 +2,128 @@
   role: 'Founder'
   description: 'Pooja is the Founder of Letters of Love and has been the driving force behind the movement ever since its inception in October, 2015. She is responsible for strategy development and outreach and providing direction to the organization. Pooja’s core focus is planning, curriculum development, operational delivery and ensuring effective and efficient implementation of Letters of Love’s vision.'
   picture: 'https://tomvaillant.com/wp-content/uploads/2018/09/Screen-Shot-2018-04-08-at-1.09.22-AM.png'
-
-- name: 'Nishtha Sharma'
-  role: 'Global Operations Manager'
-  description: 'Nishtha is the Global Operations Manager at Letters of Love and has very much been an active part of the initiative ever since it’s inception. She handles collaborations, coordinates between activities in different countries and also is the brain behind the website.'
-  picture: 'http://lettersoflove.in/wp-content/uploads/2017/10/IMG_5341.jpg'
+  position: '1'
 
 - name: 'Jeena Sajimon'
   role: 'Creative Head'
   description: 'Jeena is the Creative Head of Letters of Love. Her primary role is to take care of all the visualization content and social media outreach.'
   picture: 'http://lettersoflove.in/wp-content/uploads/2017/10/IMG_5250.jpg'
+  position: '2'
+
+- name: 'Nishtha Sharma'
+  role: 'Global Operations Manager'
+  description: 'Nishtha is the Global Operations Manager at Letters of Love and has very much been an active part of the initiative ever since it’s inception. She handles collaborations, coordinates between activities in different countries and also is the brain behind the website.'
+  picture: 'http://lettersoflove.in/wp-content/uploads/2017/10/IMG_5341.jpg'
+  position: '3'
 
 - name: 'Habiba Haseem'
   role: 'Country Manager, Egypt & Jordan'
   description: 'Habeeba is the Operations Manager of Egypt and Jordan – two new additions into the ever-expanding map of Letters of Love. Her role will primarily focus on expansion and outreach, including launching awareness campaigns within schools, creating collaborations with relevant entities and, of course, collecting letters!'
   picture: 'http://lettersoflove.in/wp-content/uploads/2017/10/IMG_5253.jpg'
+  position: '4'
 
 - name: 'Ella Neville'
   role: 'Country Manager USA'
   description: 'Ella is the Operations Manager of the United States. Her role reaching out to student chapters, youth groups and movements, non-profits, NGOs, universities, grade schools, teachers, and public spaces, in hopes to strike partnerships, spread the message of Letters of Love as far as possible and maximize its outreach.'
   picture: 'http://lettersoflove.in/wp-content/uploads/2017/10/IMG_5249.jpg'
+  position: '5'
 
 - name: 'Inba Harel'
   role: 'Country Manager, Israel'
   description: 'Inbal, or as we all call her, Gingit is hopping on board with Letters of Love as the Operations Manager in Israel. This is the first year Letters of Love will be officially operating in Israel, and Gingit is excited and hopeful that the team’s efforts will help spread the (much needed) love to refugees.'
   picture: 'http://lettersoflove.in/wp-content/uploads/2017/10/IMG_5256.jpg'
+  position: '6'
 
 - name: 'Lina Simon'
   role: 'Country Manager, Palestine'
   description: 'Lina is the Operations Manager in Palestine. Her main focus will be initiating collaborations within the region to maximize the outreach of Letters of Love.'
   picture: 'http://lettersoflove.in/wp-content/uploads/2017/10/IMG_5252.jpg'
+  position: '7'
 
 - name: 'Rasha Falhout'
   role: 'Country Manager, Syria'
   description: 'Rasha is stationed in Damascus, Syria, where she coordinates between Letters of Love and the Embassy to ensure efficient distribution of letters and equipment on children in the region. She also handles the recruitment of volunteers within Syria to help with local programs.'
   picture: 'http://lettersoflove.in/wp-content/uploads/2017/10/IMG_5342.jpg'
+  position: '8'
 
 - name: 'Tom Vaillant'
   role: 'Digital Overlord'
   description: 'Tom is a mixed-media producer, developer and filmmaker with a specialism in innovation and a fascination for narratives that drive social change. Currently making digital magic with Immersive Garden in Paris, past gigs have found him at Red Bull, freelancing for the UN or consulting with Seedstars.'
   picture: 'https://tomvaillant.com/wp-content/uploads/2018/09/PROFILE.jpg'
+  position: '9'
 
 - name: 'Reshab Retheesh'
   role: 'Audio Visual Communication Team'
   description: 'Reshab works as a graphic designer at Letters of Love. He is a junior at Vellore Institute of Technology, studying Mechanical Engineering. Reshab is passionate about photography and post-processing of pictures, as well as volunteering for purpose of charity and giving a helping hand to those who need it.'
   picture: 'http://lettersoflove.in/wp-content/uploads/2017/10/IMG_5247.jpg'
+  position: '10'
 
 - name: 'Manyank Bansal'
   role: 'Audio Visual Communication Team'
   description: 'Mayank is Letters of Love’s in-house Graphic Designer. He creates visual content for all the various social media platforms used by the organization. He hails from Delhi (India’s capital) and is currently in his final year of the Bachelor of Technology in Computer Science program at the Vellore Institute of Technology.'
   picture: 'http://lettersoflove.in/wp-content/uploads/2017/10/IMG_5246.jpg'
+  position: '11'
 
 - name: 'Sharon Vincent'
   role: 'Social Media Team'
   description: 'Sharon is the account manager of Letter of Love’s Instagram. She holds a Bachelor’s Degree of Nursing from the University of Notre Dame, Fremantle and is currently pursuing a post-graduate degree in Medicine, alongside working as a full-time nurse.'
   picture: 'http://lettersoflove.in/wp-content/uploads/2017/10/IMG_5244-1.jpg'
+  position: '12'
 
 - name: 'Rukmini Sengupta'
   role: 'Social Media Team'
   description: 'As Media Outreach Manager, Rukmini initiaties collaborations with as many groups, organizations and chapters to spread the word about Letters of Love and to get more people involved in this deeply sensitive yet necessary work.'
   picture: 'http://lettersoflove.in/wp-content/uploads/2017/10/IMG_5254.jpg'
+  position: '13'
 
 - name: 'Alaka P Shaji'
   role: 'Editorial Team Coordinator'
   description: 'Alaka is the Manager of the Writing Team at Letters of Love; she coordinates between the writing and translation teams across different cities and countries. Her role involves a lot of strategic planning to ensure that people are engaged in the act of writing letters at common places in all the countries collaborating with Letters of Love.'
   picture: 'http://lettersoflove.in/wp-content/uploads/2017/10/IMG_5248.jpg'
+  position: '14'
 
 - name: 'Siju Rose'
   role: 'Editorial Team'
   description: 'Siju came across Letters of Love through a friend, and she immediately knew there was no looking back. She has been on the Writing Team ever since. She holds a Bachelor’s Degree in Mass Media and a post-graduate degree in Journalism. Her schooling background in Muscat, Oman helped her read and write Arabic, which came in as quite a useful tool in her work with Letters of Love!'
   picture: 'http://lettersoflove.in/wp-content/uploads/2017/10/IMG_5262.jpg'
+  position: '15'
 
 - name: 'Amna Niaz'
   role: 'Editorial Team'
   description: 'Amnah works round the clock to translate all the lovely letters we receive into the proper dialect of Arabic for the children to read and understand. She is a 27-year-old Turkic, Syrian, Labanese and Saudi who works as the CEO Office Manager at Batic, alongside being a mother for a wonderful 3-year-old named Omar.'
   picture: 'http://lettersoflove.in/wp-content/uploads/2017/10/IMG_5255.jpg'
+  position: '16'
 
 - name: 'Chris Annette Mendoza'
   role: 'Fundraiser Manager'
   description: 'Chris’ work as Fundraising Manager involves coordinating with staff from different countries to host events focused on collecting funds to support other programs done by Letters of Love, as well as monitoring all fundraising activities. She has a Master’s Degree in Social Work and is a mental health clinician focused on children and individuals who have experienced trauma.'
   picture: 'http://lettersoflove.in/wp-content/uploads/2017/10/IMG_5260.jpg'
+  position: '17'
 
 - name: 'Ankita Sukheja'
   role: 'Strategy Director, Curriculum & Vision'
   description: 'Ankita is the Strategy Director of Curriculum and Vision. She develops curricular goals, outlines and oversees curriculum development, as well as expands the organization’s long-term goals, strategy and vision. Her work enables network development and collaborations within Letters of Love.'
   picture: 'http://lettersoflove.in/wp-content/uploads/2017/10/IMG_5295.jpg'
+  position: '18'
 
 - name: 'Gabby Weiss'
   role: 'Sudent Ambassador'
   description: 'Gabby is our Lead Student Ambassador and is also our youngest team member. She is in charge of sensitising her school after undergoing training with our curriculum team and conducts sessions from K-12. She has also started a Letters of Love Club in her school. Gabby Weiss,
   is a 13 year old from Alaska who over the last year and half, collected around 200 letters and colourful drawings to send to refugee children as her Bar Mitzvah project from her school and community.'
   picture: 'http://lettersoflove.in/wp-content/uploads/2017/10/IMG_5294.jpg'
+  position: '19'
 
 - name: 'Liyana Sherin'
   role: 'Content Creator'
   description: 'Liyana Shirin is a modest; amateur graphic designer. She has an eye for the smallest detail, which gives a flair to her designs. She is doing her final year of Electronics & Communication Engineering at MESCE, Kerala, India. She is a dynamic person when it comes to taking initiatives. She has received various "Best Blogger" titles for her beautiful way of depicting the art of writing.'
   picture: 'http://lettersoflove.in/wp-content/uploads/2017/10/Screen-Shot-2018-04-08-at-12.50.32-AM.png'
+  position: '20'
 
 - name: 'Shivani Chimnani'
   role: 'Content Creator'
   description: 'Shivani is a blogger for Letters of Love. Her role includes writing blog articles relating to what Letters of Love does, interviewing several student ambassadors and related persons who have been the nerve centre of Letters of Love, and writing about the refugee crisis looming large.'
   picture: 'http://lettersoflove.in/wp-content/uploads/2017/10/Screen-Shot-2018-04-08-at-1.03.27-AM.png'
+  position: '21'
 
 
 

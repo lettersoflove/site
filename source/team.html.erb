@@ -9,7 +9,7 @@ title: "Letters of Love - Team"
       <h2>Meet the Team</h2>
       <h4>Get to know us</h4>
     </div>
-    <div class="team-tabs">
+<!--     <div class="team-tabs">
       <a class="team-tab active" href="#">
         <p>Board of Directors</p>
       </a>
@@ -19,7 +19,7 @@ title: "Letters of Love - Team"
       <a class="tab" href="#">
         <p>Team</p>
       </a>
-    </div>
+    </div> -->
     <div class="team-list">
       <% data.team.each do |member| %>
       <div class="team-list-item col-xs-12 col-sm-12 col-md-10 col-xl-8">
@@ -30,6 +30,12 @@ title: "Letters of Love - Team"
           <h4><%= member.name %></h4>
           <p class="member-role"><%= member.role %></p>
           <p class="member-description"><%= member.description %></p>
+        <!--   <a class="team-button"data-toggle="collapse" href="#collapse<%#= member.name[0] %>" role="button" aria-expanded="false" aria-controls="collapse<%#= member.name[0] %>">Read more</a>
+          <div class="collapse" id="collapse<%#= member.name[0] %>">
+            <div class="member-description member-description-extended">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            </div>
+          </div> -->
         </div>
       </div>
       <% end %>

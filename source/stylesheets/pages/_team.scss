@@ -64,7 +64,25 @@
   padding: 10px 10px 0 10px;
 }
 
-.tab.active {
+.team-tabs.active {
   background: white;
   color: black;
+}
+
+.team-button {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  &:hover {
+    text-decoration: none;
+  }
+  &:focus {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.member-description-extended {
+  margin-top: 15px;
 }
