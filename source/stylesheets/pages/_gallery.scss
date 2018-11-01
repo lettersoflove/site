@@ -9,6 +9,7 @@
 .gallery-images {
   padding: 3% 15%;
   background-color: white;
+  text-align: center;
 }
 
 .gallery-photo {
@@ -51,4 +52,18 @@
   margin-bottom: 75px;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.gallery-header {
+  text-align: center;
+  border-bottom: 0.7px solid gray;
+  align-self: center;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+  h2 {
+    margin-top: 0px;
+  }
+  h4 {
+    font-size: 16px !important;
+  }
 }
