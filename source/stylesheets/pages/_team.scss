@@ -34,6 +34,8 @@
 }
 
 .team-description {
+  display: flex;
+  flex-direction: column;
   h4 {
     font-size: 20px;
     font-weight: 800;
@@ -85,4 +87,17 @@
 
 .member-description-extended {
   margin-top: 15px;
+}
+
+.student-link {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  margin-top: 20px;
+  font-weight: 550;
+  &:hover {
+    text-decoration: none;
+    color: $blue;
+    cursor: pointer;
+  }
 }
