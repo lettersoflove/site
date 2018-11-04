@@ -8,7 +8,6 @@
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title %></title>
     <%= stylesheet_link_tag "application" %>
-    <%= javascript_include_tag "application" %>
     <%= favicon_tag 'images/heart.png' %>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <meta property="og:title" content="Letters of Love">
@@ -21,5 +20,6 @@
   </head>
   <body>
     <%= yield %>
+    <%= javascript_include_tag "application" %>
   </body>
 </html>

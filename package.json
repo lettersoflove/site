@@ -1,0 +1,24 @@
+{
+  "name": "letters_of_love",
+  "version": "1.0.0",
+  "description": "",
+  "main": "config.webpack.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config config.webpack.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lettersoflove/site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lettersoflove/site/issues"
+  },
+  "homepage": "https://github.com/lettersoflove/site#readme",
+  "devDependencies": {
+    "webpack": "^4.24.0",
+    "webpack-cli": "^3.1.2"
+  }
+}
