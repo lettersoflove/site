@@ -1,22 +1,10 @@
-- name: 'Pooja Pradeep'
-  role: 'Founder'
-  description: 'Pooja is the Founder of Letters of Love and has been the driving force behind the movement ever since its inception in October, 2015. She is responsible for strategy development and outreach and providing direction to the organization. Pooja’s core focus is planning, curriculum development, operational delivery and ensuring effective and efficient implementation of Letters of Love’s vision.'
-  picture: 'https://tomvaillant.com/wp-content/uploads/2018/09/Screen-Shot-2018-04-08-at-1.09.22-AM.png'
-  position: '1'
-
-- name: 'Jeena Sajimon'
-  role: 'Creative Head'
-  description: 'Jeena is the Creative Head of Letters of Love. Her primary role is to take care of all the visualization content and social media outreach.'
-  picture: 'http://lettersoflove.in/wp-content/uploads/2017/10/IMG_5250.jpg'
-  position: '2'
-
 - name: 'Nishtha Sharma'
   role: 'Global Operations Manager'
   description: 'Nishtha is the Global Operations Manager at Letters of Love and has very much been an active part of the initiative ever since it’s inception. She handles collaborations, coordinates between activities in different countries and also is the brain behind the website.'
   picture: 'http://lettersoflove.in/wp-content/uploads/2017/10/IMG_5341.jpg'
   position: '3'
 
-- name: 'Habiba Haseem'
+- name: 'Habeeba Hasem'
   role: 'Country Manager, Egypt & Jordan'
   description: 'Habeeba is the Operations Manager of Egypt and Jordan – two new additions into the ever-expanding map of Letters of Love. Her role will primarily focus on expansion and outreach, including launching awareness campaigns within schools, creating collaborations with relevant entities and, of course, collecting letters!'
   picture: 'http://lettersoflove.in/wp-content/uploads/2017/10/IMG_5253.jpg'
@@ -63,12 +51,6 @@
   description: 'Mayank is Letters of Love’s in-house Graphic Designer. He creates visual content for all the various social media platforms used by the organization. He hails from Delhi (India’s capital) and is currently in his final year of the Bachelor of Technology in Computer Science program at the Vellore Institute of Technology.'
   picture: 'http://lettersoflove.in/wp-content/uploads/2017/10/IMG_5246.jpg'
   position: '11'
-
-- name: 'Sharon Vincent'
-  role: 'Social Media Team'
-  description: 'Sharon is the account manager of Letter of Love’s Instagram. She holds a Bachelor’s Degree of Nursing from the University of Notre Dame, Fremantle and is currently pursuing a post-graduate degree in Medicine, alongside working as a full-time nurse.'
-  picture: 'http://lettersoflove.in/wp-content/uploads/2017/10/IMG_5244-1.jpg'
-  position: '12'
 
 - name: 'Rukmini Sengupta'
   role: 'Social Media Team'
