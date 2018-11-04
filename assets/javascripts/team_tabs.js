@@ -1,7 +1,6 @@
 function teamTabs() {
 
   const tabs = document.querySelectorAll('.team-tab');
-  console.log(tabs);
   function changeTab(event) {
     const targetDetails = this.dataset.section;
     const activeTab = document.querySelector('.team-tabs .active');
@@ -13,9 +12,7 @@ function teamTabs() {
     makeHidden.classList.toggle("hidden");
     };
 
-  tabs.forEach(tab => tab.addEventListener("click", changeClass));
-  userEditButtons.forEach(btn => btn.addEventListener("click", userToggleEdit));
-  userUpdateButton.addEventListener("click", (userExitEdit));
+  tabs.forEach(tab => tab.addEventListener("click", changeTab));
 };
 
 export { teamTabs }
