@@ -5,19 +5,19 @@ title: "Letters of Love - Team"
  <div id="home">
   <%= partial 'layouts/navbar_static' %>
   <div class="team-page">
-    <div class="team-header">
+    <div class="team-header-no-underline">
       <h2>Meet the Team</h2>
       <h4>Get to know us</h4>
     </div>
     <div class="team-tabs">
-      <a class="team-tab" data-section="directors">
-        <p>Board of Directors</p>
+      <a class="team-tab active" data-section="team">
+        <p>Team</p>
       </a>
       <a class="team-tab" data-section="leadership">
         <p>Leadership</p>
       </a>
-      <a class="team-tab active" data-section="team">
-        <p>Team</p>
+      <a class="team-tab" data-section="directors">
+        <p>Board of Directors</p>
       </a>
     </div>
     <div class="team-list">
@@ -54,8 +54,8 @@ title: "Letters of Love - Team"
               <h4><%= leader.name %></h4>
               <p class="member-role"><%= leader.role %></p>
               <p class="member-description"><%= leader.description %></p>
-              <a class="team-button" data-toggle="collapse" href="#collapse<%= leader.name.split.first %>" role="button" aria-expanded="false" aria-controls="collapse<%= leader.name.split.first %>">Read more</a>
-              <div class="collapse" id="collapse<%= leader.name.split.first %>">
+              <a class="team-button" data-toggle="collapse" href="#collapse<%= leader.name.split.first + leader.position %>" role="button" aria-expanded="false" aria-controls="collapse<%= leader.name.split.first + leader.position %>">Read more</a>
+              <div class="collapse" id="collapse<%= leader.name.split.first + leader.position %>">
                 <div class="member-description member-description-extended">
                   Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
                 </div>
@@ -76,8 +76,8 @@ title: "Letters of Love - Team"
               <h4><%= member.name.split.first %></h4>
               <p class="member-role"><%= member.role %></p>
               <p class="member-description"><%= member.description %></p>
-              <a class="team-button" data-toggle="collapse" href="#collapse<%= member.name.split.first %>" role="button" aria-expanded="false" aria-controls="collapse<%= member.name.split.first %>">Read more</a>
-              <div class="collapse" id="collapse<%= member.name.split.first %>">
+              <a class="team-button" data-toggle="collapse" href="#collapse<%= member.name.split.first + member.position %>" role="button" aria-expanded="false" aria-controls="collapse<%= member.name.split.first + member.position %>">Read more</a>
+              <div class="collapse" id="collapse<%= member.name.split.first + member.position %>">
                 <div class="member-description member-description-extended">
                   Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
                 </div>

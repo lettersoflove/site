@@ -15,6 +15,18 @@
     margin-top: 0px;
   }
   h4 {
+  }
+}
+
+.team-header-no-underline {
+  text-align: center;
+  align-self: center;
+  margin-bottom: 25px;
+  padding-bottom: 30px;
+  h2 {
+    margin-top: 0px;
+  }
+  h4 {
 
   }
 }
@@ -66,7 +78,7 @@
   background: white;
   display: flex;
   margin-right: 12px;
-  margin-bottom: 50px;
+  margin-bottom: 75px;
 }
 
 .team-tab.active {

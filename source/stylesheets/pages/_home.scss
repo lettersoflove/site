@@ -1,8 +1,8 @@
 #home {
   background-color: white;
   color: black;
-  height: 100vh;
-  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .home-bottom-image {

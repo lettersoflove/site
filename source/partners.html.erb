@@ -1,0 +1,51 @@
+---
+title: "Letters of Love - Partners"
+---
+
+ <div id="home">
+  <%= partial 'layouts/navbar_static' %>
+  <div class="team-page">
+    <div class="team-header-no-underline">
+      <h2>Partners</h2>
+      <h4>Who we work with</h4>
+    </div>
+    <div class="team-tabs">
+      <a class="team-tab active" data-section="implementation">
+        <p>Implementation</p>
+      </a>
+      <a class="team-tab" data-section="education">
+        <p>Education</p>
+      </a>
+    </div>
+
+    <!-- PARTNERS -->
+    <div class="team-show-details" data-section="implementation">
+      <div class="partners-section col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3 col-xl-4 col-xl-offset-4">
+        <% data.implementation_partners.each do |partner| %>
+          <% link_to "#{partner.link}", target: "_blank" do %>
+          <div class="partner-box">
+            <div class="center-cropped-logo"
+                 style="background-image: url('<%= partner.logo %>');">
+            </div>
+          </div>
+          <% end %>
+        <% end %>
+      </div>
+    </div>
+    <!-- COLLABORATORS -->
+    <div class="team-show-details hidden" data-section="education">
+      <div class="partners-section col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3 col-xl-4 col-xl-offset-4">
+        <% data.educational_partners.each do |partner| %>
+          <% link_to "#{partner.link}", target: "_blank" do %>
+          <div class="partner-box">
+            <div class="center-cropped-logo"
+                 style="background-image: url('<%= partner.logo %>');">
+            </div>
+          </div>
+          <% end %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+  <%= partial 'layouts/footer' %>
+</div>

@@ -1,7 +1,7 @@
 .gallery-page {
   display: flex;
   flex-direction: column;
-  padding-top: 150px;
+  padding-top: 100px;
   background-color: white;
   position: relative;
 }
@@ -24,11 +24,6 @@
     background-repeat: no-repeat;
     height: inherit !important;
   }
-}
-
-.card-memories-content {
-  color: black;
-  font-size: 24px !important;
 }
 
 .gallery-return {

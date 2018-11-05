@@ -44,9 +44,40 @@
   background-color: #70bbf7;
 }
 
+.card-memories-content {
+  color: black;
+  font-size: 24px !important;
+  min-height: 150px;
+}
+
+.card-memories {
+  display: flex;
+  flex-direction: column;
+}
+
 .card-content {
-  margin-top: 5%;
-  padding: 0px 5px;
+  margin-top: 3%;
+  padding: 0px 25px;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  h3 {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+.card-button-memories {
+  width: 150px;
+  align-self: center;
+}
+
+.card-content-index {
+  margin-top: 3%;
+  padding: 0px 25px;
   text-align: center;
   justify-content: center;
   flex-direction: column;
