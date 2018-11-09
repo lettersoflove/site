@@ -7,6 +7,8 @@
   border-radius: 10px;
   color: white;
   font-weight: 500;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-image {
@@ -21,6 +23,9 @@
   margin-top: 5px;
   margin-bottom: 15px;
   min-height: 48px;
+  width: 120px;
+  align-self: center;
+  text-align: center;
   line-height: 48px;
   background-color: #369ff4;
   transition: background-color .15s linear;
@@ -81,6 +86,10 @@
   text-align: center;
   justify-content: center;
   flex-direction: column;
+  min-height: 60px;
+  h4 {
+    font-size: 18px !important;
+  }
   h3 {
     font-size: 20px;
     font-weight: bolder;
@@ -103,134 +112,4 @@
 }
 #card-four {
   background-color: #909cc2;
-}
-
-// STUDENT CARDS
-
-.student-card {
-  padding: 10px 15px;
-  margin: 20px 35px;
-  position: relative;
-  box-shadow: 0 18px 35px rgba(50,50,93,.1),0 8px 15px rgba(0,0,0,.07);
-  border-radius: 10px;
-  color: white;
-  font-weight: 500;
-  min-height: 325px;
-}
-
-.student-card-flex {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 300px;
-}
-
-.student-card-content {
-  display: flex;
-  flex-direction: column;
-  h2, h4, p {
-    color: black;
-    text-align: center;
-  }
-  h2 {
-    margin-top: 5px !important;
-    text-align: center;
-  }
-  p {
-    font-size: 14px;
-    font-weight: lighter;
-    text-align: justify;
-  }
-}
-
-.student-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.student-card-empty {
-  flex: 1;
-}
-
-.student-card-button {
-  margin-top: 5px;
-  height: 48px;
-  line-height: 48px;
-  transition: background-color .15s linear;
-  text-transform: uppercase;
-  letter-spacing: .1em;
-  border-radius: 4px;
-  border: 0;
-  font-size: 15px;
-  padding: 0 20px;
-  font-weight: 500;
-  display: inline-block;
-  color: #fff;
-  cursor: pointer;
-  text-align: center;
-  a {
-    text-decoration: none;
-    color: white;
-  }
-}
-
-.student-card-button:hover {
-  background-color: #70bbf7;
-}
-
-#ambassador-button {
-  background-color: #9b9ece;
-  margin-top: 5px;
-  min-height: 48px;
-  line-height: 48px;
-  transition: background-color .15s linear;
-  text-transform: uppercase;
-  letter-spacing: .1em;
-  border-radius: 4px;
-  border: 0;
-  font-size: 15px;
-  padding: 0 20px;
-  font-weight: 500;
-  display: inline-block;
-  color: #fff;
-  cursor: pointer;
-  text-align: center;
-  a {
-    text-decoration: none;
-    color: white;
-  }
-}
-
-#ambassador-button:hover {
-    background-color: #70bbf7 !important;
-}
-
-#student-button {
-  background-color: #af9fa5;
-  margin-top: 5px;
-  min-height: 48px;
-  line-height: 48px;
-  transition: background-color .15s linear;
-  text-transform: uppercase;
-  letter-spacing: .1em;
-  border-radius: 4px;
-  border: 0;
-  font-size: 15px;
-  padding: 0 20px;
-  font-weight: 500;
-  display: inline-block;
-  color: #fff;
-  cursor: pointer;
-  text-align: center;
-  a {
-    text-decoration: none;
-    color: white;
-  }
-}
-
-
-#student-button:hover {
-  background-color: #70bbf7 !important;
 }
