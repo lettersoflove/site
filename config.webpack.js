@@ -1,4 +1,4 @@
-const path = require('path');
+var path = require('path');
 
 module.exports = {
   mode: "production",
@@ -7,8 +7,21 @@ module.exports = {
     path: path.resolve(__dirname, "./source/javascripts/"),
     filename: "application.js"
     // publicPath: "/assets/"
-  }
-  /* module: {
+  },
+  // module: {
+  //        rules: [
+  //            {
+  //                test: /\.js$/,
+  //                loader: 'babel-loader',
+  //                query: {
+  //                    presets: ['es2015']
+  //                }
+  //            }
+  //        ]
+  //       }
+}
+
+ /* module: {
     rules: [
       {
         test: /\.jsx?$/,
@@ -44,4 +57,3 @@ module.exports = {
     // ...
   ]
   */
-}
