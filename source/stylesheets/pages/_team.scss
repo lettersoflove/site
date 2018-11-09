@@ -1,7 +1,7 @@
 .team-page {
   display: flex;
   flex-direction: column;
-  padding-top: 125px;
+  padding-top: 100px;
   background-color: white;
 }
 
@@ -10,7 +10,6 @@
   border-bottom: 0.7px solid gray;
   align-self: center;
   margin-bottom: 50px;
-  padding-bottom: 30px;
   h2 {
     margin-top: 0px;
   }
@@ -22,7 +21,6 @@
   text-align: center;
   align-self: center;
   margin-bottom: 25px;
-  padding-bottom: 30px;
   h2 {
     margin-top: 0px;
   }
@@ -31,10 +29,13 @@
   }
 }
 
-.team-list {
+.team-show-details {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.team-list {
   background-color: white;
 }
 
@@ -77,8 +78,8 @@
   justify-content: center;
   background: white;
   display: flex;
-  margin-right: 12px;
-  margin-bottom: 75px;
+  margin-right: 20px;
+  margin-bottom: 60px;
 }
 
 .team-tab.active {

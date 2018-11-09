@@ -30,6 +30,7 @@
   }
   h4 {
     font-size: 24px;
+    font-weight: bolder;
   }
 }
 
@@ -75,6 +76,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-image: url('https://tomvaillant.com/wp-content/uploads/2018/09/ourpenpals-1.jpg');
   h2, h4, p {
     color: black;
@@ -84,7 +86,6 @@
 .home-image-two-text {
   max-width: 575px;
   text-align: center;
-  padding-left: 5%;
   margin-bottom: 15px;
   h2 {
   font-size: 75px;
@@ -121,6 +122,40 @@
   }
 }
 
+.work-footer-button:hover {
+  background-color: #70bbf7;
+}
+
+.work-footer-button-gray {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  min-height: 48px;
+  min-width: 160px;
+  align-self: center;
+  text-align: center;
+  line-height: 48px;
+  background-color: #D3D3D3;
+  transition: background-color .15s linear;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  border-radius: 4px;
+  border: 0;
+  font-size: 15px;
+  padding: 0 20px;
+  font-weight: 500;
+  display: inline-block;
+  color: #fff;
+  cursor: pointer;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.work-footer-button-gray:hover {
+  background-color: #A9A9A9;
+}
+
 // STUDENT
 
 // STUDENT CARDS
@@ -153,6 +188,7 @@
   h2 {
     margin-top: 5px !important;
     text-align: center;
+    font-size: 45px;
   }
   p {
     font-size: 14px;
@@ -197,7 +233,7 @@
 }
 
 #penpal-button {
-  background-color: #909cc2;
+  background-color: #EFC3E6;
   &:hover {
   background-color: #70bbf7;
   }

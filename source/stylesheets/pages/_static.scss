@@ -22,45 +22,29 @@
 }
 
 .static-content {
-  padding: 20px 20px;
-  align-self: center;
-  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding-bottom: 50px;
+  justify-content: center;
+  align-items: center;
 }
 
 .static-page {
-  background-color: white;
+  background-color: white !important;
   color: black;
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
 }
 
 .static-video-block {
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
   margin-top: 30px;
   margin-bottom: 40px;
-}
-
-.static-page-content {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
 }
 
 #changemakers-btn {
   margin-top: 30px;
 }
 
-.static-bottom-image {
-  height: 540px;
-  margin-top: 50px;
-  background-size: cover !important;
-  background-image: url('https://tomvaillant.com/wp-content/uploads/2018/10/IMG_3288.jpg');
-  margin-bottom: 50px;
-}
-
-.student-link {
-
-}
