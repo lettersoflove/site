@@ -1,0 +1,31 @@
+/*
+        This font software is the property of Commercial Type.
+
+        You may not modify the font software, use it on another website, or install it on a computer.
+
+        License information is available at http://commercialtype.com/eula
+        For more information please visit Commercial Type at http://commercialtype.com or email us at info[at]commercialtype.com
+
+        Copyright (C) 2018 Schwartzco Inc.
+        License: 1810-YUSNXY
+*/
+
+
+@font-face {
+  font-family: 'Atlas Grotesk Web';
+  src: url('../images/AtlasGrotesk-Thin-Web.eot');
+  src: url('../images/AtlasGrotesk-Thin-Web.eot?#iefix') format('embedded-opentype'),
+       url('../images/AtlasGrotesk-Thin-Web.woff2') format('woff2'),
+       url('../images/AtlasGrotesk-Thin-Web.woff') format('woff');
+  font-weight:  100;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.AtlasGrotesk-Thin-Web {
+  font-family: 'Atlas Grotesk Web';
+  font-weight:  100;
+  font-style:   normal;
+  font-stretch: normal;
+}
+

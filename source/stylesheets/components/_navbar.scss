@@ -6,7 +6,7 @@
 }
 
 .navbar-static {
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Atlas Grotes Web', sans-serif;
   background: white;
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
   transition: all 0.3s ease;
@@ -39,7 +39,6 @@
 }
 
 .navbar-static-right {
-  text-transform: uppercase;
   display: flex;
   position: absolute;
   right: 20px;
@@ -77,9 +76,8 @@
 .navbar-static-dropdown-menu li > a {
   transition: color 0.3s ease;
   font-weight: lighter !important;
-  color: #999999 !important;
-  font-size: 15px !important;
-  line-height: 22px !important;
+  color: #999999;
+  font-size: 14px !important;
   padding: 10px 20px;
 }
 
@@ -105,6 +103,11 @@
   padding: 5px 7px;
   margin-right: 10px;
   border-radius: 4px;
+  font-size: 14px;
+}
+
+.navbar-static-button-links:hover {
+  opacity: 0.6;
 }
 
 .dropdown-menu-right {
@@ -113,5 +116,8 @@
 }
 
 .dropdown-menu-static {
-  left: -90px !important;
+  font-size: 16px !important;
+  left: -44px !important;
+  text-align: center;
+  min-width: 140px !important;
 }
