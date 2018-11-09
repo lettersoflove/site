@@ -1,0 +1,24 @@
+---
+title: "Letters of Love - New Year's 2018"
+---
+
+<div id="home">
+  <%= partial 'layouts/navbar_static' %>
+  <div class="gallery-page">
+    <div class="gallery-return">
+      <a href="/memories.html"><i class="fas fa-arrow-left"></i></a>
+    </div>
+    <div class="gallery-header col-xs-10 col-sm-8 col-md-6 col-xl-4">
+      <h2>New Year's 2018</h2>
+      <h4>Letters of Love were delivered to 15000 Syrian, Iraqi, Yazidi, Rohingya refugee children across community centers and schools in Turkey and Jordan.</h4>
+    </div>
+    <div class="gallery-images">
+      <% data.galleries.NY2018.each do |item| %>
+        <div class="gallery-photo">
+          <img src="<%= item.picture %>" alt="">
+        </div>
+      <% end %>
+    </div>
+  </div>
+  <%= partial 'layouts/footer' %>
+</div>
