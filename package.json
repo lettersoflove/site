@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/lettersoflove/site#readme",
   "devDependencies": {
-    "webpack": "^4.24.0",
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.25.1",
     "webpack-cli": "^3.1.2"
   },
   "dependencies": {
