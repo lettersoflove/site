@@ -18,6 +18,9 @@
   width: 100%;
   a {
     color: black;
+    &:hover {
+      text-decoration: none;
+    }
   }
 }
 

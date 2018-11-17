@@ -83,6 +83,20 @@
   }
 }
 
+.home-image-one {
+  min-height: 80vh;
+  background-size: cover !important;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://chroniclr.co/wp-content/uploads/2018/09/DSC_0188-3.jpg');
+  h2, h4, p {
+    color: black;
+  }
+}
 .home-image-two-text {
   max-width: 575px;
   text-align: center;
@@ -248,4 +262,10 @@
   }
 }
 
+
+#map {
+  align-self: center;
+  min-height: 500px;  /* The height is 400 pixels */
+  width: 80%;  /* The width is the width of the web page */
+}
 

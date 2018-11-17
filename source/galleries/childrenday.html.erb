@@ -1,0 +1,25 @@
+---
+title: "Letters of Love - Children's Day"
+---
+
+<div id="home">
+  <%= partial 'layouts/navbar_static' %>
+  <div class="gallery-page">
+    <div class="gallery-return">
+      <a href="/memories.html"><i class="fas fa-arrow-left"></i></a>
+    </div>
+    <div class="gallery-header col-xs-10 col-sm-8 col-md-6 col-xl-4">
+      <h2>Children's Day</h2>
+      <h4>Through Letters of Love's #ItsChildrensDay campaign, over 2000 refugee children living in Turkey received letters from people living in different parts of the world on 23 April which is celebrated as The National Sovereignty and Children’s Day in Turkey. Thanks to UNHCR Turkey and its partners for making these beautiful children smile.</h4>
+    </div>
+    <div class="gallery-images">
+      <% data.galleries.childrensday.each do |item| %>
+        <div class="gallery-photo">
+          <img src="<%= item.picture %>" alt="">
+        </div>
+      <% end %>
+    </div>
+  </div>
+  <%= partial 'layouts/footer' %>
+</div>
+

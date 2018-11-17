@@ -37,6 +37,9 @@
 
 .team-list {
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .team-list-item {
@@ -44,6 +47,7 @@
   margin-bottom: 50px;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-self: center;
 }
 
 .team-description {
