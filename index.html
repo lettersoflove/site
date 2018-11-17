@@ -7,7 +7,7 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>Letters of Love</title>
-    <link href="stylesheets/application-d9bcef0b.css" rel="stylesheet" />
+    <link href="stylesheets/application-c14a378a.css" rel="stylesheet" />
     <link href="images/heart-126c325a.png" rel="icon" type="image/png" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <meta property="og:title" content="Letters of Love">
@@ -33,8 +33,9 @@
     <div class="navbar-static-flex hidden-xs">
       <!-- <a href="" class="navbar-static-item navbar-static-link">Why Letters?</a> -->
       <a href="about.html" class="navbar-static-item navbar-static-link">About Us</a>
-      <a href="work.html" class="navbar-static-item navbar-static-link">Approach</a>
+      <a href="work.html" class="navbar-static-item navbar-static-link">Our Work</a>
       <a href="team.html" class="navbar-static-item navbar-static-link">Team</a>
+      <a href="memories.html" class="navbar-static-item navbar-static-link">Memories</a>
       <a href="https://medium.com/letters-of-love" class="navbar-static-item navbar-static-link">Blog</a>
     </div>
   </div>
@@ -46,8 +47,9 @@
   </div> -->
 
   <div class="navbar-static-right hidden-xs">
+    <a class="navbar-static-item navbar-static-button-links navbar-right-link" href="https://www.globalgiving.org/projects/gift-handwritten-letters-to-10000-refugee-children/" target="_blank">DONATE</a>
          <!-- DONATE DROPDOWN -->
-      <div class="dropdown">
+  <!--     <div class="dropdown">
         <button class="dropdown-toggle navbar-static-item navbar-static-button-links navbar-right-link" type="button" id="donateStaticDropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         DONATE
         </button>
@@ -55,7 +57,7 @@
           <li><a class="nav-dropdown-item" href="https://paypal.com/us/fundraiser/charity/3399841">With Paypal</a></li>
           <li><a class="nav-dropdown-item" href="https://milaap.org/fundraisers/lettersoflove2019">With Milaap</a></li>
         </uld>
-      </div>
+      </div> -->
   </div>
 
   <!-- Dropdown appearing on mobile only -->
@@ -79,7 +81,7 @@
       <div class="banner-home-content">
         <h1>One smile at a time</h1>
         <p>Help us make a difference to global refugee crises using empathy, education and empowerment</p>
-        <a href="https://lettersoflove.typeform.com/to/BPWAdu" class="banner-button">Send a letter</a>
+        <a href="https://www.globalgiving.org/projects/gift-handwritten-letters-to-10000-refugee-children/" class="banner-button">Donate with Global Giving</a>
       </div>
   </div>
 
@@ -99,9 +101,9 @@
     <div id="card-two" class="card col-xs-9 col-sm-6 col-md-4 col-xl-3">
       <div class="card-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://chroniclr.co/wp-content/uploads/2018/09/DSC_0302-2.jpg');"></div>
       <div class="card-content-index">
-        <h4>Donate to our New Years 2019 campaign</h4>
+        <h4>Spread smiles, send a letter!</h4>
       </div>
-      <div class="card-button"><a href="https://paypal.com/us/fundraiser/charity/3399841">Donate</a></div>
+      <div class="card-button"><a href="https://lettersoflove.typeform.com/to/BPWAdu">Write</a></div>
     </div>
     <div id="card-three" class="card col-xs-9 col-sm-6 col-md-4 col-xl-3">
       <div class="card-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://chroniclr.co/wp-content/uploads/2018/09/Copy-of-DSC_0081-2.jpg');"></div>
@@ -130,6 +132,20 @@
       </div>
     </div>
   </div>
+  <div class="logos-container">
+    <div class="row-flex-space-around margin-top">
+<a href="http://www.unhcr.org/withrefugees/petition/" target="_blank">        <div class="center-cropped-logos"
+                   style="background-image: url('https://chroniclr.co/wp-content/uploads/2018/11/Cartello_WithRefugees-1-2.jpg');">
+        </div>
+</a><a href="https://sdsnyouth.org/" target="_blank">        <div class="center-cropped-logos"
+             style="background-image: url('https://chroniclr.co/wp-content/uploads/2018/11/SDSNYouthlogo1.png');">
+        </div>
+</a><a href="http://unoy.org/en/" target="_blank">        <div class="center-cropped-logos"
+             style="background-image: url('https://chroniclr.co/wp-content/uploads/2018/11/unoy-logo-banner.png');">
+        </div>
+</a>    </div>
+  </div>
+  <div class="margin"></div>
 
     <!-- STORIES -->
     <div class="section-title-home">
@@ -185,6 +201,58 @@
       <div class="work-footer-button-gray"><a href="/students.html">Meet our ambassadors</a></div>
     </div>
 
+    <!--The div element for the map -->
+    <div class="section-title-home">
+      <div class="section-home-content">
+        Where we are
+      </div>
+    </div>
+    <div id="map"></div>
+    <script>
+       function initMap() {
+        var markers = [
+          ['New Delhi', 28.644800, 77.216721],
+          ['Cairo', 30.0444196, 31.2357116],
+          ['Athens', 37.983810, 23.727539],
+          ['Instabul', 41.015137, 28.979530],
+          ['Bethlehem', 31.705791, 35.200657],
+          ['Damascus', 33.510414, 36.278336],
+          ['Gaza', 31.416665, 34.333332],
+          ['Cox Bazar', 21.58333, 92.0166666],
+          ['Amman', 31.963158, 35.930359]
+        ];
+
+        var map = new google.maps.Map(
+            document.getElementById('map'), {
+              zoom: 4,
+              center: new google.maps.LatLng(41.015137, 28.979530),
+            });
+
+        var infoWindow = new google.maps.InfoWindow(), marker, i;
+        for( i = 0; i < markers.length; i++ ) {
+            var position = new google.maps.LatLng(markers[i][1], markers[i][2]);
+            marker = new google.maps.Marker({
+                position: position,
+                map: map,
+                title: markers[i][0]
+            });
+
+        };
+      };
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBi345rz2pY5OyPlwrAWmgZ5WY-fJmUfaM&callback=initMap">
+    </script>
+
+    <div class="home-image-one">
+      <div class="home-image-two-text col-xs-10 col-sm-8 col-md-8 col-xl-6">
+        <div class="home-image-two-text">
+          <h4>Help us spread smiles.</h4>
+        </div>
+        <div class="work-footer-button"><a href="https://lettersoflove.typeform.com/to/BPWAdu">Write a Letter</a></div>
+      </div>
+    </div>
+  </div>
     <!-- SUBSCRIBE CTA -->
   </div>
   <div class="footer">
