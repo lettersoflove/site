@@ -1,10 +1,3 @@
-- name: 'Nishtha Sharma'
-  role: 'Global Operations Manager'
-  description: 'Nishtha is the Global Operations Manager at Letters of Love and has very much been an active part of the initiative ever since it’s inception. She handles collaborations, coordinates between activities in different countries and also is the brain behind the website.'
-  long_description: 'test'
-  picture: 'http://lettersoflove.in/wp-content/uploads/2017/10/IMG_5341.jpg'
-  position: '3'
-
 - name: 'Habeeba Hasem'
   role: 'Country Manager, Egypt & Jordan'
   description: 'Habeeba is the Operations Manager of Egypt and Jordan – two new additions into the ever-expanding map of Letters of Love. Her role will primarily focus on expansion and outreach, including launching awareness campaigns within schools, creating collaborations with relevant entities and, of course, collecting letters!'
@@ -47,13 +40,6 @@
   picture: 'https://chroniclr.co/wp-content/uploads/2018/09/PROFILE.jpg'
   position: '9'
 
-- name: 'Reshab Retheesh'
-  role: 'Audio Visual Communication Team'
-  description: 'Reshab works as a graphic designer at Letters of Love. He is a junior at Vellore Institute of Technology, studying Mechanical Engineering. Reshab is passionate about photography and post-processing of pictures, as well as volunteering for purpose of charity and giving a helping hand to those who need it.'
-  long_description: ''
-  picture: 'http://lettersoflove.in/wp-content/uploads/2017/10/IMG_5247.jpg'
-  position: '10'
-
 - name: 'Manyank Bansal'
   role: 'Audio Visual Communication Team'
   description: 'Mayank is Letters of Love’s in-house Graphic Designer. He creates visual content for all the various social media platforms used by the organization. He hails from Delhi (India’s capital) and is currently in his final year of the Bachelor of Technology in Computer Science program at the Vellore Institute of Technology.'
@@ -88,20 +74,6 @@
   long_description: ''
   picture: 'http://lettersoflove.in/wp-content/uploads/2017/10/IMG_5255.jpg'
   position: '16'
-
-- name: 'Chris Annette Mendoza'
-  role: 'Fundraiser Manager'
-  description: 'Chris’ work as Fundraising Manager involves coordinating with staff from different countries to host events focused on collecting funds to support other programs done by Letters of Love, as well as monitoring all fundraising activities. She has a Master’s Degree in Social Work and is a mental health clinician focused on children and individuals who have experienced trauma.'
-  long_description: ''
-  picture: 'http://lettersoflove.in/wp-content/uploads/2017/10/IMG_5260.jpg'
-  position: '17'
-
-- name: 'Ankita Sukheja'
-  role: 'Strategy Director, Curriculum & Vision'
-  description: 'Ankita is the Strategy Director of Curriculum and Vision. She develops curricular goals, outlines and oversees curriculum development, as well as expands the organization’s long-term goals, strategy and vision. Her work enables network development and collaborations within Letters of Love.'
-  long_description: ''
-  picture: 'http://lettersoflove.in/wp-content/uploads/2017/10/IMG_5295.jpg'
-  position: '18'
 
 - name: 'Gabby Weiss'
   role: 'Sudent Ambassador'
