@@ -3,6 +3,10 @@
   flex-direction: column;
   padding-top: 100px;
   background-color: white;
+  a:hover {
+    text-decoration: none;
+    color: white;
+  }
 }
 
 .team-header {
