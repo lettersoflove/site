@@ -7,13 +7,32 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title %></title>
+<!--     <title><%#= data.meta.title %></title> -->
+    <meta name="description" content="<%= data.meta.description %>">
+
+    <!-- Facebook Open Graph data -->
+    <meta property="og:title" content="<%= data.meta.title %>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="<%= request.original_url %>" />
+    <meta property="og:image" content="<%= data.meta.meta_image %>" />
+    <meta property="og:description" content="<%= data.meta.description %>" />
+    <meta property="og:site_name" content="<%= data.meta.title %>" />
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="<%= data.meta.twitter_account %>">
+    <meta name="twitter:title" content="<%= data.meta.title %>">
+    <meta name="twitter:description" content="<%= data.meta.description %>">
+    <meta name="twitter:creator" content="<%= data.meta.twitter_account %>">
+    <meta name="twitter:image:src" content="<%= data.meta.meta_image %>">
+    ...
     <%= stylesheet_link_tag "application" %>
     <%= favicon_tag 'images/heart.png' %>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <meta property="og:title" content="Letters of Love">
+<!--     <meta property="og:title" content="Letters of Love">
     <meta property="og:description" content="An international humanitarian non-profit organisation that makes a difference to global refugee crises through empathy, education & empowerment.">
     <meta property="og:image" content="../images/MetaImage.JPG">
-    <meta property="og:url" content="https://letters-of-love.org">
+    <meta property="og:url" content="https://letters-of-love.org"> -->
 <!--     <link href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" rel="stylesheet"/> -->
     <link rel="stylesheet" type="text/css" href="../stylesheets/1810-YUSNXY.css">
     <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
@@ -21,5 +40,20 @@
   <body>
     <%= yield %>
     <%= javascript_include_tag "application" %>
+      <!-- Matomo -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="https://sophya.matomo.cloud/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', '2']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src='//cdn.matomo.cloud/sophya.matomo.cloud/piwik.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Matomo Code -->
   </body>
 </html>
