@@ -1,6 +1,11 @@
 // STATIC PAGE NAVBAR
 
 /* Logo */
+
+a:hover {
+  color: white !important;
+}
+
 .navbar-logo img {
   height: 50px;
 }
@@ -16,11 +21,8 @@
   align-items: center;
   position: relative;
   width: 100%;
-  a {
-    color: black;
-    &:hover {
-      text-decoration: none;
-    }
+  a:hover {
+    text-decoration: none;
   }
 }
 
@@ -53,6 +55,9 @@
 .navbar-static-item {
   cursor: pointer;
   padding: 0 20px;
+  a {
+    color: black;
+  }
 }
 
 /* Navbar link */
@@ -123,4 +128,20 @@
   left: -44px !important;
   text-align: center;
   min-width: 140px !important;
+}
+
+.navbar-right-link {
+  background-color: $blue;
+  padding: 7px 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+}
+
+.navbar-static-right a:hover {
+  text-decoration: none !important;
+  font-weight: bolder;
+  opacity: 0.8;
 }
