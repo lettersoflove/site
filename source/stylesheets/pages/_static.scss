@@ -21,6 +21,13 @@
   }
 }
 
+.static-page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
 .static-content {
   display: flex;
   flex-direction: column;
@@ -45,6 +52,7 @@
   display: flex;
   margin-top: 30px;
   margin-bottom: 40px;
+  margin-left: 15%;
 }
 
 #changemakers-btn {
@@ -53,4 +61,11 @@
 
 .margin-bottom-pusher {
   height: 65px;
+}
+
+.button-align-center {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 3em;
 }

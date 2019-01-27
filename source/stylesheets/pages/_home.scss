@@ -39,9 +39,8 @@
   justify-content: center;
   position: relative;
   display: flex;
-  margin: 2em 40px 1em 40px;
+  margin: 3em 40px 5em 40px;
   z-index: 1;
-  margin-bottom: 60px;
 }
 
 .section-home-content {
@@ -193,6 +192,7 @@
   background-repeat: no-repeat;
   margin-bottom: 15px;
   box-shadow: 0 2px 26px 0 rgba(0,0,0,0.2);
+  margin-left: 10px;
 }
 
 .row-flex {
@@ -203,6 +203,12 @@
 
 .row-flex-space-around {
   justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row-flex-center {
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
 }
@@ -235,4 +241,5 @@
 
 .logos-container {
   min-height: 200px;
+  padding: 20px;
 }
