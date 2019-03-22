@@ -4,7 +4,7 @@
   margin: 3%;
   padding: 15px;
   height: 70vh;
-  background-size: cover !important;
+  // position: relative;
   display: flex;
   text-align: center;
   align-items: center;
@@ -16,8 +16,14 @@
   border-radius: 5px;
 }
 
-#banner-home {
-  background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://chroniclr.co/wp-content/uploads/2019/03/hero_image-1.jpg');
+.banner-home-image {
+  // position: absolute;
+  // width: 100%;
+  // height: 100%;
+  // top: 0;
+  // left: 0;
+  background-size: cover !important;
+  background: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%, url('https://github.com/lettersoflove/site/blob/master/source/images/Pages/hero_image.jpg'));
   background-position: 50% 50%;
 }
 
@@ -49,6 +55,8 @@
 .banner-home-content {
   color: white;
   max-width: 575px;
+  position: relative;
+  z-index: 5;
 }
 
 .banner-home h1 {
