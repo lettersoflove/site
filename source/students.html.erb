@@ -4,21 +4,26 @@ title: "Letters of Love - Student Ambassadors"
 
  <div id="home">
   <%= partial 'layouts/navbar_static' %>
-  <div class="team-page">
-    <div class="team-header">
-      <h2>Meet our Student Ambassadors</h2>
-      <h4>“Not all superheroes wear capes. Some wear school uniforms!”</h4>
+  <div class="static-page">
+    <div class="static-page-content no-margin">
+      <div class="static-content no-margin col-xs-11 col-sm-11 col-md-8 col-xl-6">
+        <h1>Meet our Student Ambassadors</h1>
+        <h4>“Not all superheroes wear capes. Some wear school uniforms!”</h4>
+        <div class="line-margin"></div>
+        <p>Letters of Love’s Student Ambassadors form a global network of motivated teenagers who have the will to challenge and change social issues. They come from different countries and contexts, united with their passion to inspire communities harnessing the power of a handwritten letter. We provide each of them with mentorship, skills and platforms required to do 'what they want to do.'
+        <br>
+        While one part of what our Student Ambassadors do is run sensitisation programs in their schools and communities, raising awareness about global refugee crises, the other part is to perforate their change movement to more local domains. Actualising that mission, we have our Student Ambassadors empathise their schools towards marginalised and vulnerable communities and others in their localities , for example - the homeless, prisoners, LGBTQ, war veterans, survivors et al.</p>
+      </div>
     </div>
-    <div class="static-content col-xs-11 col-sm-11 col-md-8 col-xl-6">
-      <p>Letters of Love’s Student Ambassadors form a global network of motivated teenagers who have the will to challenge and change social issues. They come from different countries and contexts, united with their passion to inspire communities harnessing the power of a handwritten letter. We provide each of them with mentorship, skills and platforms required to do 'what they want to do.'
-      <br>
-      While one part of what our Student Ambassadors do is run sensitisation programs in their schools and communities, raising awareness about global refugee crises, the other part is to perforate their change movement to more local domains. Actualising that mission, we have our Student Ambassadors empathise their schools towards marginalised and vulnerable communities and others in their localities , for example - the homeless, prisoners, LGBTQ, war veterans, survivors et al.</p>
+    <div class="button-align-center">
+      <a href="https://docs.google.com/forms/d/1Tk5-Y1MYYtBkaQhqZ1AsCRQsQA8q2IKahLdEhhd8Zrk/edit?ts=5bc277cd"
+    class="banner-button">Become a Student Ambassador</a>
+    </div>
     <div class="static-video-block">
-      <div class="video-component col-xs-12 col-sm-10 col-md-6 col-xl-4">
+      <div class="video-component col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3 col-xl-4 col-xl-offset-4">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Givp7SShB-I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
-    <div class="line-margin"></div>
     <div class="team-list">
       <% data.students.each do |student| %>
       <div class="team-list-item col-xs-12 col-sm-12 col-md-10 col-xl-8">
@@ -29,14 +34,11 @@ title: "Letters of Love - Student Ambassadors"
           <h4><%= student.name %></h4>
           <p class="member-description"><%= student.description %></p>
           <% link_to "#{student.link}", target: "_blank", class: "student-link" do %>
-              <p>Read more</p>
+              Read more
             <% end %>
         </div>
       </div>
       <% end %>
-    </div>
-    <a href="https://docs.google.com/forms/d/1Tk5-Y1MYYtBkaQhqZ1AsCRQsQA8q2IKahLdEhhd8Zrk/edit?ts=5bc277cd"
-    class="work-footer-button">Become a Student Ambassador</a>
     </div>
   </div>
   <%= partial 'layouts/footer' %>

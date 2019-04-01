@@ -2,10 +2,6 @@
 
 /* Logo */
 
-a:hover {
-  color: white !important;
-}
-
 .navbar-logo img {
   height: 50px;
 }
@@ -26,9 +22,10 @@ a:hover {
   }
 }
 
-.navbar-static-link:hover {
-  opacity: 0.6;
-  text-decoration: none;
+.navbar-static-link a:hover {
+  opacity: 0.6 !important;
+  color: black !important;
+  text-decoration: none !important;
 }
 
 /* Right section */
@@ -114,8 +111,9 @@ a:hover {
   font-size: 14px;
 }
 
-.navbar-static-button-links:hover {
-  opacity: 0.6;
+.navbar-static-button-links a:hover {
+  opacity: 0.6 !important;
+  color: black !important;
 }
 
 .dropdown-menu-right {
@@ -135,6 +133,7 @@ a:hover {
   padding: 7px 10px;
   margin-right: 10px;
   border-radius: 4px;
+  cursor: pointer;
   font-size: 15px;
   font-weight: 500;
   color: white;
@@ -144,4 +143,5 @@ a:hover {
   text-decoration: none !important;
   font-weight: bolder;
   opacity: 0.8;
+  color: white;
 }
