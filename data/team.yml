@@ -47,13 +47,6 @@
   picture: 'https://raw.githubusercontent.com/lettersoflove/site/master/source/images/team/sai1.jpg'
   position: '3'
 
-- name: 'Tom Vaillant'
-  role: 'Developer'
-  description: 'Tom is a mixed-media producer, developer and filmmaker with a specialism in innovation and a fascination for narratives that drive social change. Currently making digital magic with Immersive Garden in Paris, past gigs have found him at Red Bull, freelancing for the UN or consulting with Seedstars.'
-  long_description: ''
-  picture: 'https://raw.githubusercontent.com/lettersoflove/site/master/source/images/team/PROFILE.jpg'
-  position: '9'
-
 - name: 'Mayank Bansal'
   role: 'Audio Visual Communication Team'
   description: 'Mayank is Letters of Love’s in-house Graphic Designer. He creates visual content for all the various social media platforms used by the organization. He hails from Delhi (India’s capital) and is currently in his final year of the Bachelor of Technology in Computer Science program at the Vellore Institute of Technology.'
