@@ -39,7 +39,7 @@
   justify-content: center;
   position: relative;
   display: flex;
-  margin: 3em 40px 5em 40px;
+  margin: 3em 40px 4em 40px;
   z-index: 1;
 }
 
@@ -48,7 +48,6 @@
   position: relative;
   padding-right: 30px;
   padding-left: 30px;
-  margin-top: 30px;
   font-size: 30px;
   color: $gray;
 }
@@ -143,9 +142,9 @@
 .home-list {
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
-  margin-top: 30px;
-  margin-bottom: 45px;
+  background-color: #fcf5e8;
+  padding-top: 40px;
+  padding-bottom: 45px;
   justify-content: center;
 }
 
@@ -171,6 +170,10 @@
 
 .home-member-description {
   color: $gray;
+}
+
+.ambassadors-color {
+  background-color: #fcf5e8;
 }
 
 .center-cropped-home {

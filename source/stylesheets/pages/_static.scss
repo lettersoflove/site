@@ -52,6 +52,12 @@
   display: flex;
   margin-top: 3em;
   margin-bottom: 3em;
+  flex-direction: column;
+}
+
+.video-caption {
+  text-align: justify;
+  padding-top: 20px;
 }
 
 #changemakers-btn {
@@ -81,5 +87,14 @@
 .no-margin {
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
+}
+
+.starthrowers {
+  text-align: center;
+}
+
+.starthrowers-image {
+  width: 85%;
+  margin-bottom: 30px;
 }
 
