@@ -4,10 +4,14 @@
 @import "config/bootstrap_variables";
 
 // External libraries
+@import "vendor/mq";
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome-sprockets";
 @import "font-awesome";
+
+// rewrite breakpoints
+@import "config/breakpoints";
 
 // Your CSS partials
 // @import "layouts/index";

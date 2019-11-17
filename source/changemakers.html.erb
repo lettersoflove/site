@@ -2,23 +2,92 @@
 title: "Letters of Love - Changemakers"
 ---
 
-<div class="static-page">
+<div class="static-page" id="js-changemakers">
   <%= partial 'layouts/navbar_static' %>
+  <div class="static-content">
 
-  <h1>Wall of Change</h1>
+    <div class="details-dummy-nav"></div>
+    <div class="static-header">
+      <h1>Wall of Change</h1>
+    </div>
+    <div class="changemakers-grid col-xs-11 col-sm-11 col-md-10 col-xl-8">
+      <% data.changemakers.each_with_index do |change, index| %>
+          <div class="profile" data-flip-key="<%=index%>">
+            <div class="profile-image" data-flip-key="<%=index%>" style="background-image: url('<%= change.image_url %>');"></div>
+            <div class="profile-info">
+              <h4 class="profile-name"><%= change.name %></h4>
+              <% if change.article_url.length > 0 %>
+                 <% link_to "#{change.article_url}", target: "_blank", class: "cta" do %>
+                  Read more
+                <% end %>       
+              <% else %>
+                  <button data-profile-index="<%=index%>" class="btn cta js-profile-btn">Read more</button>
+              <% end%>
+            </div>
+          </div>
+      <% end %>
+    </div>
 
-  <% data.changemakers.each do |change| %>
-      <div class="team-list-item col-xs-12 col-sm-12 col-md-10 col-xl-8">
-        <div class="center-cropped"
-             style="background-image: url('<%= change.image_url %>');">
+    <div class="details-wrapper js-details-overlay hidden">
+      <div class="details-dummy-nav"></div>
+      <div class="details col-xs-12 col-sm-11 col-md-10 col-xl-8">
+        <div class="details-header js-details-header">
+          <button class="details-header-btn cta">BACK</button>
         </div>
-        <div class="team-description col-xl-8 col-md-8 col-sm-8 col-xs-10">
-          <h4><%= change.name %></h4>
-          <p class="member-description"><%= change.location %></p>
-          <% link_to "#{change.article_url}", target: "_blank", class: "student-link" do %>
-              Read more
-            <% end %>
+        <div class="details-content">
+          <div class="details-profile col-xs-12 col-sm-6 col-md-3 col-xl-3">
+            <div class="details-profile-image details-profile-item js-profile-item" style="background-image: url('https://raw.githubusercontent.com/lettersoflove/site/master/source/images/team/HABEEBA.jpg');"></div>
+            <div class="details-profile-info details-profile-item js-profile-item">
+              <h2 class="details-profile-name"><%= data['changemakers'][0].name %></h2>
+            </div>
+          </div>
+          <div class="details-qa col-xs-12 col-sm-12 col-md-9 col-xl-9">
+            <div class="details-paragraph inactive js-qa-item">
+              <div class="details-paragraph-question">age</div>
+              <div class="details-paragraph-answer">
+                <%= data.changemakers[0].age %>
+              </div>
+            </div>
+            <div class="details-paragraph inactive js-qa-item">
+              <div class="details-paragraph-question">school</div>
+              <div class="details-paragraph-answer">
+                <%= data.changemakers[0].school %>
+              </div>
+            </div>
+            <div class="details-paragraph inactive js-qa-item">
+              <div class="details-paragraph-question">role</div>
+              <div class="details-paragraph-answer">
+                <%= data.changemakers[0].role %>
+              </div>
+            </div>
+            <div class="details-paragraph inactive js-qa-item">
+              <div class="details-paragraph-question">work</div>
+              <div class="details-paragraph-answer">
+                <%= data.changemakers[0].work %>
+              </div>
+            </div>
+            <div class="details-paragraph inactive js-qa-item">
+              <div class="details-paragraph-question">matter</div>
+              <div class="details-paragraph-answer">
+                <%= data.changemakers[0].matter %>
+              </div>
+            </div>
+            <div class="details-paragraph inactive js-qa-item">
+              <div class="details-paragraph-question">why?</div>
+              <div class="details-paragraph-answer">
+                <%= data.changemakers[0].why? %>
+              </div>
+            </div>
+
+          </div>
         </div>
-      </div>
-  <% end %>
+        </div>
+    </div>
+  
+  </div>
 </div>
+
+
+<script>
+  var myMasterKey = '<%= data.changemakers[0] %>';
+</script>
