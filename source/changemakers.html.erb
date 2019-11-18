@@ -1,5 +1,7 @@
 ---
 title: "Letters of Love - Changemakers"
+profile_index: 0
+questions: ['age', 'school', 'work', 'matter', 'why?']
 ---
 
 <div class="static-page" id="js-changemakers">
@@ -28,6 +30,9 @@ title: "Letters of Love - Changemakers"
       <% end %>
     </div>
 
+    <%# this is the profile details popup %>
+    <%# when you click the ".js-profile-button" above, we should grab the index of the profile and update the "profile_index" variable %>
+
     <div class="details-wrapper js-details-overlay hidden">
       <div class="details-dummy-nav"></div>
       <div class="details col-xs-12 col-sm-11 col-md-10 col-xl-8">
@@ -38,47 +43,18 @@ title: "Letters of Love - Changemakers"
           <div class="details-profile col-xs-12 col-sm-6 col-md-3 col-xl-3">
             <div class="details-profile-image details-profile-item js-profile-item" style="background-image: url('https://raw.githubusercontent.com/lettersoflove/site/master/source/images/team/HABEEBA.jpg');"></div>
             <div class="details-profile-info details-profile-item js-profile-item">
-              <h2 class="details-profile-name"><%= data['changemakers'][0].name %></h2>
+              <h2 class="details-profile-name"><%= data.changemakers[current_page.data.profile_index].name %></h2>
             </div>
           </div>
           <div class="details-qa col-xs-12 col-sm-12 col-md-9 col-xl-9">
-            <div class="details-paragraph inactive js-qa-item">
-              <div class="details-paragraph-question">age</div>
-              <div class="details-paragraph-answer">
-                <%= data.changemakers[0].age %>
+            <% current_page.data.questions.each do |question, index| %>
+              <div class="details-paragraph inactive js-qa-item"> 
+                <div class="details-paragraph-question"><%= question %></div>
+                <div class="details-paragraph-answer">
+                  <%= data.changemakers[current_page.data.profile_index][question] %>
+                </div>
               </div>
-            </div>
-            <div class="details-paragraph inactive js-qa-item">
-              <div class="details-paragraph-question">school</div>
-              <div class="details-paragraph-answer">
-                <%= data.changemakers[0].school %>
-              </div>
-            </div>
-            <div class="details-paragraph inactive js-qa-item">
-              <div class="details-paragraph-question">role</div>
-              <div class="details-paragraph-answer">
-                <%= data.changemakers[0].role %>
-              </div>
-            </div>
-            <div class="details-paragraph inactive js-qa-item">
-              <div class="details-paragraph-question">work</div>
-              <div class="details-paragraph-answer">
-                <%= data.changemakers[0].work %>
-              </div>
-            </div>
-            <div class="details-paragraph inactive js-qa-item">
-              <div class="details-paragraph-question">matter</div>
-              <div class="details-paragraph-answer">
-                <%= data.changemakers[0].matter %>
-              </div>
-            </div>
-            <div class="details-paragraph inactive js-qa-item">
-              <div class="details-paragraph-question">why?</div>
-              <div class="details-paragraph-answer">
-                <%= data.changemakers[0].why? %>
-              </div>
-            </div>
-
+            <% end %>
           </div>
         </div>
         </div>
@@ -86,8 +62,3 @@ title: "Letters of Love - Changemakers"
   
   </div>
 </div>
-
-
-<script>
-  var myMasterKey = '<%= data.changemakers[0] %>';
-</script>
