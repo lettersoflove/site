@@ -1,7 +1,7 @@
 ---
 title: "Letters of Love - Changemakers"
 profile_index: 0
-question_keys: ['age', 'school', 'location', 'work', 'matter', 'why?']
+question_keys: ['age', 'school', 'location', 'work', 'matter', 'why']
 questions: ["Age", "School", "Location", "Work at Letters of Love", "What matters to you", "Why are you part of this?"]
 ---
 
@@ -46,16 +46,16 @@ questions: ["Age", "School", "Location", "Work at Letters of Love", "What matter
         </div>
         <div class="details-content">
           <div class="details-profile col-xs-12 col-sm-6 col-md-3 col-xl-3">
-            <div class="details-profile-image details-profile-item js-profile-item" style="background-image: url('<%= data.changemakers[current_page.data.profile_index].image_url %>');"></div>
+            <div class="details-profile-image details-profile-item js-profile-item js-details-image" style="background-image: url('images/logo.png');"></div>
             <div class="details-profile-info details-profile-item js-profile-item">
-              <h2 class="details-profile-name"><%= data.changemakers[current_page.data.profile_index].name %></h2>
+              <h2 class="details-profile-name js-details-name"><%= data.changemakers[current_page.data.profile_index].name %></h2>
             </div>
           </div>
           <div class="details-qa col-xs-12 col-sm-12 col-md-9 col-xl-9">
             <% current_page.data.question_keys.each_with_index do |question, index| %>
               <div class="details-paragraph inactive js-qa-item"> 
                 <div class="details-paragraph-question"><%=  current_page.data.questions[index] %></div>
-                <div class="details-paragraph-answer">
+                <div class="details-paragraph-answer js-details-<%=question%>">
                   <%= data.changemakers[current_page.data.profile_index][question] %>
                 </div>
               </div>
