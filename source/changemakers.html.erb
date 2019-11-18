@@ -1,66 +1,88 @@
 ---
 title: "Letters of Love - Changemakers"
+profile_index: 0
+question_keys: ['age', 'school', 'location', 'work', 'matter', 'why']
+questions: ["Age", "School", "Location", "Work at Letters of Love", "What matters to you", "Why are you part of this?"]
 ---
 
-<div class="static-page">
+<div class="static-page" id="js-changemakers">
   <%= partial 'layouts/navbar_static' %>
-  <div id="banner-changemakers" class="banner-home">
-      <div class="banner-home-content col-xs-10 col-sm-8 col-md-8 col-xl-6">
-        <h1>Creating changemakers in classrooms</h1>
-      </div>
-  </div>
-  <div class="static-page-content">
-    <div class="static-content col-xs-11 col-sm-11 col-md-8 col-xl-6">
-      <div class="static-header">
-        <h4>What’s wrong with the world?</h4>
-      </div>
-      <div class="static-description">
-        <p>
-        The war in Syria began with peaceful, anti-government demonstrations in March 2011. The government answered by turning peaceful protests into violent massacres. Armed opposition groups rose up in response, and the country was soon engulfed in a civil war. The war continues to rage and the extent of its damage will not be understood for years. It is clear, however, that the war has had devastating consequences both for Syrians inside the country, and those who have fled.
-        <br><br>
-        The United Nations has called the Syrian conflict one of the worst humanitarian crises of the modern era. By now, the short-term consequences for the survivors, particularly the children, of this horrific conflict have become apparent: Syrian children are living with life-altering injuries, including amputations, spinal cord injuries, and whole body burns; the impact of malnutrition is now felt within and outside Syria’s border; children have become increasingly vulnerable to insanitary and contaminated informal settlement environments. The war has also devastated families economically, forcing many children and adolescents to leave school and become providers for their families.
-        <br><br>
-        An unstable government, civil strife, destruction of cities, and of mankind is not characteristic of Syria alone. Countries including Yemen, Afghanistan, Myanmar, Congo, and South Sudan have been experiencing a crisis of a similar magnitude over the last few decades. The Refugee situation is not new to the world.
-        <br><br><br>
-        What do we do about this?
-        <br><br>
-        We often ponder on we would change things if we had greater resources at our disposal. We believe these problems are too high-handed to be resolved by a common man, and leave the decision-making to the higher echelons of political authority. This is not always the case though.
-        <br><br>
-        The truth is we can. We have all the power to resolve global conflict. You may ask how so? Through empathy.
-        <br><br>
-        Empathy has a critical role to play in creating positive social change; it will enable us to become more collaborative and respond more thoughtfully to social issues. But before empathy can achieve its full impact in our lives and in positive social change, we must cultivate internal awareness to understand our own context in the world. Empathy is foundational to the ability to resolve conflict, to collaborate in teams, to align interests, to listen effectively and make decisions where there are no rules or precedents, to solve problems and drive change.
-        <br><br>
-        You want to resolve the Refugee Crisis? Make yourself aware about the situation, history, origin and complexities which caused millions people to flee from their country of origin. Then, ask important questions. Why aren’t countries accepting refugees? Why are policy-makers resisting their entry? Additionally, look up the law on refugees. If you have the option, write to your legislator and ask about the country’s refugee policy. Participate in peaceful demonstrations and show your support for refugees. Fight for their rights.  Contribute to organizations which engage in refugee development. Maybe, volunteer in one. Send a letter of love to a refugee child and render a face beaming with joy. Make others aware and help start a new cycle.
-        <br><br>
-        This probably won’t resolve the global conflict but you’ll create a ripple. An endless ripple of kindness, support and solidarity.
-        <br><br>
-        Can I make a change?
-        <br><br>
-        YES, you can.
-        <br><br>
-        Effective collaboration in this environment is only possible with empathy: the ability to understand and respond to the feelings of others. To foster a changemaker world, empathy is as fundamental as reading and math. Letters of Love believes in embedding empathy right in the roots (Get ‘em while they’re young!)
-        <br><br>
-        While we hope to empower refugee children with emotional well-being, we find it imperative to sensitise students in schools around the world to be mindful of the grave humanitarian challenges around them.
-        <br><br>
-        Our activity-oriented curriculum that uses the Syrian War and Refugee Crisis as the case study has 3 objectives:
-        <br><br>
-        <ul>
-            <li>Raising awareness of global refugee crises.</li>
-            <li>Cultivating empathy.</li>
-            <li>Highlighting the potential of every child as a change agent in his/her capacity.</li>
-        </ul>
-        <br>
-        Every child gets an opportunity to write a letter to a refugee child and also enrol in our highly competitive Student Ambassador program.
-        <br><br>
-        Ever since its inception in 2017, with the support of around 200 teachers, more than 8000 students across 15 countries have participated in these workshops and have emerged better human beings. They've also made that many refugee children smile wide and bright with their heartfelt letters.
-        <br><br>
-        If you have an interest in leading change and are a teacher/ facilitator/ counselor/ social worker/ volunteer at any establishment that tends to children from K-12, kindly fill the form here.
-        <br><br>
-        Join us in finding the ‘lost generation’.
-        </p>
-        <a id="changemakers-btn" href="https://drive.google.com/open?id=1n7q95whSzNc7z2PCDGJnWo0nnY1vhP78wA83EvbFlqY" class="banner-button">Become a changemaker</a>
+  <div class="static-content">
+
+    <div class="details-dummy-nav"></div>
+    <div class="changemakers-header">
+      <h1>Wall of Change</h1>
+    </div>
+
+    <div class="static-video-block">
+      <div class="video-component col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3 col-xl-4 col-xl-offset-4">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Givp7SShB-I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
+
+    <div class="section-title-home">
+        <div class="section-home-content">
+          Our Changemakers
+        </div>
+      </div>
+
+    <div class="changemakers-grid col-xs-11 col-sm-11 col-md-10 col-xl-8">
+      <% data.changemakers.each_with_index do |change, index| %>
+          <div class="profile" data-flip-key="<%=index%>">
+            <% if change.image_url.length > 0 %>
+              <div class="profile-image" data-flip-key="<%=index%>" style="background-image: url('<%= change.image_url %>');"></div>
+            <% else %>
+              <div class="profile-image placeholder" data-flip-key="<%=index%>" style="background-image: url('images/logo.png');"></div>
+            <% end%>
+            <div class="profile-info">
+              <h4 class="profile-name"><%= change.name %></h4>
+              <% if change.article_url.length > 0 %>
+                 <% link_to "#{change.article_url}", target: "_blank", class: "cta" do %>
+                  Learn more
+                <% end %>
+              <% else %>
+                  <button data-profile-index="<%=index%>" class="btn cta js-profile-btn">Learn more</button>
+              <% end%>
+            </div>
+          </div>
+      <% end %>
+    </div>
+
+    <%# this is the profile details popup %>
+    <%# when you click the ".js-profile-button" above, we should grab the index of the profile and update the "profile_index" variable %>
+
+    <div class="details-wrapper js-details-overlay hidden">
+      <div class="details-dummy-nav"></div>
+      <div class="details col-xs-12 col-sm-11 col-md-10 col-xl-8">
+        <div class="details-header js-details-header">
+          <button class="details-header-btn cta">BACK</button>
+        </div>
+        <div class="details-content">
+          <div class="details-profile col-xs-12 col-sm-6 col-md-3 col-xl-3">
+            <div class="details-profile-image details-profile-item js-profile-item js-details-image" style="background-image: url('images/logo.png');"></div>
+            <div class="details-profile-info details-profile-item js-profile-item">
+              <h2 class="details-profile-name js-details-name"><%= data.changemakers[current_page.data.profile_index].name %></h2>
+            </div>
+          </div>
+          <div class="details-qa col-xs-12 col-sm-12 col-md-9 col-xl-9">
+            <% current_page.data.question_keys.each_with_index do |question, index| %>
+              <div class="details-paragraph inactive js-qa-item">
+                <div class="details-paragraph-question"><%=  current_page.data.questions[index] %></div>
+                <div class="details-paragraph-answer js-details-<%=question%>">
+                  <%= data.changemakers[current_page.data.profile_index][question] %>
+                </div>
+              </div>
+            <% end %>
+          </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="button-align-center">
+      <a href="https://docs.google.com/forms/d/1Tk5-Y1MYYtBkaQhqZ1AsCRQsQA8q2IKahLdEhhd8Zrk/edit?ts=5bc277cd"
+    class="banner-button">Become a Student Ambassador</a>
+    </div>
+
   </div>
-  <%= partial 'layouts/footer' %>
+    <%= partial 'layouts/footer' %>
 </div>

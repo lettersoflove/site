@@ -16,6 +16,10 @@
   padding: 0px 30px;
   align-items: center;
   position: relative;
+  body.changemakers & {
+    position: fixed;
+    z-index: 5;
+  }
   width: 100%;
   a:hover {
     text-decoration: none;

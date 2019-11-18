@@ -24,25 +24,25 @@ title: "Letters of Love - Student Ambassadors"
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Givp7SShB-I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
-    <div class="team-list">
-      <% data.students.each do |student| %>
+    <!-- <div class="team-list">
+      <%# data.students.each do |student| %>
       <div class="team-list-item col-xs-12 col-sm-12 col-md-10 col-xl-8">
         <div class="center-cropped"
-             style="background-image: url('<%= student.picture %>');">
+             style="background-image: url('<%#= student.picture %>');">
         </div>
         <div class="team-description col-xl-8 col-md-8 col-sm-8 col-xs-10">
-          <h4><%= student.name %></h4>
-          <p class="member-description"><%= student.description %></p>
-          <% link_to "#{student.link}", target: "_blank", class: "student-link" do %>
+          <h4><%#= student.name %></h4>
+          <p class="member-description"><%#= student.description %></p>
+          <%# link_to "#{student.link}", target: "_blank", class: "student-link" do %>
               Read more
-            <% end %>
+            <%# end %>
         </div>
       </div>
-      <% end %>
+      <%# end %>
     </div>
     <div class="starthrowers">
       <img src="https://raw.githubusercontent.com/lettersoflove/site/master/source/images/ambassadors/Principle-3.jpg" alt="" class="starthrowers-image">
-    </div>
+    </div> -->
   </div>
   <%= partial 'layouts/footer' %>
 </div>

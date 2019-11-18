@@ -16,3 +16,7 @@ function teamTabs() {
 };
 
 export { teamTabs }
+
+// `#{<% data.changemakers.each.do %>}`
+
+// `#{<% end %>}`
