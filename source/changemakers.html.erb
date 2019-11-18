@@ -10,14 +10,27 @@ questions: ["Age", "School", "Location", "Work at Letters of Love", "What matter
   <div class="static-content">
 
     <div class="details-dummy-nav"></div>
-    <div class="static-header">
+    <div class="changemakers-header">
       <h1>Wall of Change</h1>
     </div>
+
+    <div class="static-video-block">
+      <div class="video-component col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3 col-xl-4 col-xl-offset-4">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Givp7SShB-I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="section-title-home">
+        <div class="section-home-content">
+          Our Changemakers
+        </div>
+      </div>
+
     <div class="changemakers-grid col-xs-11 col-sm-11 col-md-10 col-xl-8">
       <% data.changemakers.each_with_index do |change, index| %>
           <div class="profile" data-flip-key="<%=index%>">
             <% if change.image_url.length > 0 %>
-              <div class="profile-image" data-flip-key="<%=index%>" style="background-image: url('<%= change.image_url %>');"></div>    
+              <div class="profile-image" data-flip-key="<%=index%>" style="background-image: url('<%= change.image_url %>');"></div>
             <% else %>
               <div class="profile-image placeholder" data-flip-key="<%=index%>" style="background-image: url('images/logo.png');"></div>
             <% end%>
@@ -26,7 +39,7 @@ questions: ["Age", "School", "Location", "Work at Letters of Love", "What matter
               <% if change.article_url.length > 0 %>
                  <% link_to "#{change.article_url}", target: "_blank", class: "cta" do %>
                   Learn more
-                <% end %>       
+                <% end %>
               <% else %>
                   <button data-profile-index="<%=index%>" class="btn cta js-profile-btn">Learn more</button>
               <% end%>
@@ -53,7 +66,7 @@ questions: ["Age", "School", "Location", "Work at Letters of Love", "What matter
           </div>
           <div class="details-qa col-xs-12 col-sm-12 col-md-9 col-xl-9">
             <% current_page.data.question_keys.each_with_index do |question, index| %>
-              <div class="details-paragraph inactive js-qa-item"> 
+              <div class="details-paragraph inactive js-qa-item">
                 <div class="details-paragraph-question"><%=  current_page.data.questions[index] %></div>
                 <div class="details-paragraph-answer js-details-<%=question%>">
                   <%= data.changemakers[current_page.data.profile_index][question] %>
@@ -64,6 +77,12 @@ questions: ["Age", "School", "Location", "Work at Letters of Love", "What matter
         </div>
         </div>
     </div>
-  
+
+    <div class="button-align-center">
+      <a href="https://docs.google.com/forms/d/1Tk5-Y1MYYtBkaQhqZ1AsCRQsQA8q2IKahLdEhhd8Zrk/edit?ts=5bc277cd"
+    class="banner-button">Become a Student Ambassador</a>
+    </div>
+
   </div>
+    <%= partial 'layouts/footer' %>
 </div>

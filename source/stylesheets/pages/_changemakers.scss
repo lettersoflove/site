@@ -116,7 +116,7 @@ $cta-blue: #369ff4;
     flex-direction: column;
     height: 100%;
     padding: 20px;
-    font-family: 'Atlas Grotesk Web', sans-serif; 
+    font-family: 'Atlas Grotesk Web', sans-serif;
 
     &-dummy-nav {
         height: 70px;
@@ -264,3 +264,7 @@ $cta-blue: #369ff4;
     }
 }
 
+.changemakers-header {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
