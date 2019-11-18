@@ -1,7 +1,8 @@
 ---
 title: "Letters of Love - Changemakers"
 profile_index: 0
-questions: ['age', 'school', 'work', 'matter', 'why?']
+question_keys: ['age', 'school', 'location', 'work', 'matter', 'why?']
+questions: ["Age", "School", "Location", "Work at Letters of Love", "What matters to you", "Why are you part of this?"]
 ---
 
 <div class="static-page" id="js-changemakers">
@@ -15,15 +16,19 @@ questions: ['age', 'school', 'work', 'matter', 'why?']
     <div class="changemakers-grid col-xs-11 col-sm-11 col-md-10 col-xl-8">
       <% data.changemakers.each_with_index do |change, index| %>
           <div class="profile" data-flip-key="<%=index%>">
-            <div class="profile-image" data-flip-key="<%=index%>" style="background-image: url('<%= change.image_url %>');"></div>
+            <% if change.image_url.length > 0 %>
+              <div class="profile-image" data-flip-key="<%=index%>" style="background-image: url('<%= change.image_url %>');"></div>    
+            <% else %>
+              <div class="profile-image placeholder" data-flip-key="<%=index%>" style="background-image: url('images/logo.png');"></div>
+            <% end%>
             <div class="profile-info">
               <h4 class="profile-name"><%= change.name %></h4>
               <% if change.article_url.length > 0 %>
                  <% link_to "#{change.article_url}", target: "_blank", class: "cta" do %>
-                  Read more
+                  Learn more
                 <% end %>       
               <% else %>
-                  <button data-profile-index="<%=index%>" class="btn cta js-profile-btn">Read more</button>
+                  <button data-profile-index="<%=index%>" class="btn cta js-profile-btn">Learn more</button>
               <% end%>
             </div>
           </div>
@@ -41,15 +46,15 @@ questions: ['age', 'school', 'work', 'matter', 'why?']
         </div>
         <div class="details-content">
           <div class="details-profile col-xs-12 col-sm-6 col-md-3 col-xl-3">
-            <div class="details-profile-image details-profile-item js-profile-item" style="background-image: url('https://raw.githubusercontent.com/lettersoflove/site/master/source/images/team/HABEEBA.jpg');"></div>
+            <div class="details-profile-image details-profile-item js-profile-item" style="background-image: url('<%= data.changemakers[current_page.data.profile_index].image_url %>');"></div>
             <div class="details-profile-info details-profile-item js-profile-item">
               <h2 class="details-profile-name"><%= data.changemakers[current_page.data.profile_index].name %></h2>
             </div>
           </div>
           <div class="details-qa col-xs-12 col-sm-12 col-md-9 col-xl-9">
-            <% current_page.data.questions.each do |question, index| %>
+            <% current_page.data.question_keys.each_with_index do |question, index| %>
               <div class="details-paragraph inactive js-qa-item"> 
-                <div class="details-paragraph-question"><%= question %></div>
+                <div class="details-paragraph-question"><%=  current_page.data.questions[index] %></div>
                 <div class="details-paragraph-answer">
                   <%= data.changemakers[current_page.data.profile_index][question] %>
                 </div>

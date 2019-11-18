@@ -54,18 +54,24 @@ $cta-blue: #369ff4;
         height: 200px;
         width: 100%;
         background-size: cover;
-        background-position: center; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: #F8F8F8;
+
+        &.placeholder {
+            background-size: 35%;
+        }
     }
 
     &-info {
         display: flex;
+        flex: 1;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
         padding: 20px;
         background-color: white;
-
     }
 
     &-name {
@@ -73,6 +79,7 @@ $cta-blue: #369ff4;
         padding-bottom: 15px;
         font-size: 2.1rem;
         font-weight: bold;
+        text-align: center;
     }
 
     &-cta {
@@ -149,6 +156,9 @@ $cta-blue: #369ff4;
     }
     @include mq($until: tablet) {
         height: 30px;
+        &.active {
+            transition: all 0.3s ease-in-out;
+        }
     }
 }
 

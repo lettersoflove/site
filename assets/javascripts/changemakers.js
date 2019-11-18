@@ -1,5 +1,7 @@
 import * as $ from 'jquery';
 
+const isMobile = () => typeof window !== `undefined` && window.innerWidth < 800;
+
 const CLASSES = {
     detailsOverlay: `.js-details-overlay`,
     detailsHeader: `.js-details-header`,
@@ -20,7 +22,8 @@ const showDetails = (e) => {
     $el.detailsOverlay.removeClass(`hidden`);
     setTimeout(() => $el.profileItem.addClass(`active`), 50);
     setTimeout(() => $el.qaItem.addClass(`active`), 350);
-    setTimeout(() => $el.detailsHeader.addClass(`active`), 400);
+    $el.detailsHeader.addClass(`active`);
+    isMobile() ? $el.detailsHeader.addClass(`active`) : setTimeout(() => $el.detailsHeader.addClass(`active`), 400);
 }
 
 
