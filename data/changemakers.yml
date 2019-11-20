@@ -61,7 +61,7 @@
   work: "I've been part of a  Meet, Greet, and Scribble workshop."
   matter: "I believe in my pursuing my passion and supporting my family in every way I can."
   why: "I fell in love with a Letters of Love workshop I attended and I wanted to be part of it from the very first moment. I also took a picture with everyone from LOL at the Seeds of Peace camp. That moment meant so much to me and I wanted to be more involved. I am part of Letters of Love because I know that it spreads positivity and brings light  into the world. I mean, who could say no to that?"
-  image_url: ""
+  image_url: "https://firebasestorage.googleapis.com/v0/b/letters-5cc80.appspot.com/o/Wall%20of%20Change%2Fkenzy.jpg?alt=media&token=cac5e8b9-c98d-4251-8f44-093d35a08aee"
   article_url: ""
 
 - name: "Jordan Perkins"
@@ -105,7 +105,7 @@
   work: "I've been part of letters drive with the Seeds Community.I'm also working on the Kashmir Project."
   matter: "The art of communication matters to me - a tool that can pave a better route for our future generations."
   why: "I feel like I can influence more people with the platform LoL provides me with. I can use it to educate and make people aware about the issues I feel strongly about."
-  image_url: ""
+  image_url: "https://firebasestorage.googleapis.com/v0/b/letters-5cc80.appspot.com/o/Wall%20of%20Change%2Fayesha.jpg?alt=media&token=e15c0327-745e-4edf-b70f-2fcc0a9fdd00"
   article_url: ""
 
 - name: "Emaan Arshad Warraich"
@@ -120,18 +120,11 @@
   article_url: ""
 
 - name: "Amy Topchik"
-  age: "17"
-  school: "I attend school at  Scarborough High"
-  location: "I am from Scarborough, Maine, USA"
-  role: "I play the role of a Student Ambassador"
-  work: "I've organized letters drive for refugee children and for survivors of the school shooting in Parkland, Florida."
-  matter: "I think empathy is the one emotion that matters the most to me!"
-  why: "I wanted to do whatever I could, with whatever I had, wherever I was - to make a difference in our world. I believe in the power of individuals to create collective change, and I think LoL embodies that mission."
   image_url: "https://firebasestorage.googleapis.com/v0/b/letters-5cc80.appspot.com/o/Wall%20of%20Change%2Famy_topchik.JPG?alt=media&token=9f0cc83b-7d74-4d09-b38f-496eccfefa0f"
-  article_url: ""
+  article_url: "https://medium.com/letters-of-love/armed-with-awareness-spring-into-action-an-interview-with-amy-topchik-f65d380b3264"
 
 - name: "Sania Singhania"
-  image_url: "https://raw.githubusercontent.com/lettersoflove/site/master/source/images/ambassadors/SANIA.jpg"
+  image_url: "https://firebasestorage.googleapis.com/v0/b/letters-5cc80.appspot.com/o/Wall%20of%20Change%2Fsania.jpg?alt=media&token=42152774-3663-4a24-b3a3-9dbe8c2fdda2"
   article_url: "https://medium.com/letters-of-love/spread-love-and-some-more-of-it-an-interview-with-sania-singhania-b1079d63eeaa"
 
 - name: "Noga"
@@ -143,7 +136,7 @@
   article_url: "https://medium.com/letters-of-love/humanity-over-horrors-peace-amidst-borders-an-interview-with-ariel-d955b18bf79d"
 
 - name: "Simran Moryani"
-  image_url: "https://raw.githubusercontent.com/lettersoflove/site/master/source/images/ambassadors/SIMI.jpg"
+  image_url: "https://firebasestorage.googleapis.com/v0/b/letters-5cc80.appspot.com/o/Wall%20of%20Change%2Fsimran.jpg?alt=media&token=027b9b19-acc3-4305-bdfa-ad17508c9a12"
   article_url: "https://medium.com/letters-of-love/compassion-kindness-and-happiness-an-interview-with-simran-moryani-53c9a697cf4a"
 
 - name: "Malek Sumera"
