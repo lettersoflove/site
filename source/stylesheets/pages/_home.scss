@@ -94,6 +94,10 @@
   align-items: center;
   padding: 75px 35px;
   margin-bottom: 50px;
+
+  &--home {
+    margin-bottom: 20px;
+  }
 }
 
 .video-flex {
@@ -245,4 +249,83 @@
 .logos-container {
   min-height: 200px;
   padding: 20px;
+}
+
+// TESTIMONIALS CAROUSEL 
+
+.swiper {
+
+  &-container {
+    width: 100%;
+    min-height: 300px;
+    padding:0;
+  };
+
+  &-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    padding: 20px;
+    // height: 200px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 100%;
+  };
+
+  &-wrapper {
+    align-items: center;
+  }
+
+}
+
+.testimonial {
+  &-container {
+    min-width: 300px;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    & > * {
+      text-align: left;
+    }
+  }
+
+  &-text {
+    line-height: 1.2em;
+    margin-bottom: 30px;
+  }
+
+  &-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+  }
+
+  &-name, &-title {
+    padding: 0;
+    margin: 0;
+  }
+
+  &-name {
+    margin-bottom: 2px
+  };
+
+  &-title {
+    font-size: 1.5rem;
+    color: #a3a3a3;
+  }
 }

@@ -74,7 +74,7 @@ title: "Letters of Love"
     </div>
   </div>
 
-  <div class="video-block">
+  <div class="video-block video-block--home">
     <div class="video-flex">
       <div class="video-component col-xs-12 col-sm-10 col-md-6 col-xl-5">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/WbuEs0o8r4o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -85,6 +85,27 @@ title: "Letters of Love"
       </div>
     </div>
   </div>
+
+
+    <!-- TESTIMONIALS -->
+    <div class="swiper-container col-xs-12 col-sm-12 col-md-10 col-xl-8">
+    <div class="swiper-wrapper">
+      <% data.testimonials.each do |person, index| %>
+        <div class="swiper-slide">
+          <div class="testimonial-container">
+            <h3 class="testimonial-text">"<%=person.testimonial%>"</h3>
+            <div class="testimonial-info">
+              <p class="testimonial-name"><%=person.name%></p>
+              <p class="testimonial-title"><%=person.designation%></p>
+            </div>
+          </div>
+        </div>
+      <% end %>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
   <div class="logos-container">
     <div class="row-flex-center margin-top">
       <% link_to "http://www.unhcr.org/withrefugees/petition/", class: "logos-padding", target: "_blank" do %>

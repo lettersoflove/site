@@ -222,7 +222,7 @@ $cta-blue: #369ff4;
 }
 
 .details-qa {
-    max-width: 800px;
+    max-width: 900px;
     padding: 10px 40px;
     @include mq($until: tablet) {
         padding: 10px 0;

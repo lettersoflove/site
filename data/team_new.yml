@@ -1,0 +1,623 @@
+---
+- name: Pooja
+  surname: Pradeep
+  title: Founder & Executive Director
+  department: leadership
+  picture: https://raw.githubusercontent.com/lettersoflove/site/master/source/images/leadership/POOJA.jpg
+  age: 27
+  location: Mumbai, India
+  bio: Pooja is a Mechanical Engineer turned Educator who is at the heart of Letters of Love. After a brief stint as a high school Physics & Math teacher, she now works extensively in the fields of conflict transformation, entrepreneurship and empathy-centric education. Pooja is a few people at once - besides being the Founder & Executive Director at Letters of Love, she is a counselor at Seeds of Peace, Indian representative at Beyond The Classrooms Education , and is the program manager of the National Entrepreurship Network (NEN) at Wadhwani Foundation. She is a Tedx speaker, has been a panelist at various symposiums and universities internationally. Pooja has been awarded the GATHER Fellowship in 2018, Rex Karmaveer Global Fellowship and the Karmaveer Chakra Award in 2019. She was selected, trained and certified by the Commonwealth of Nations and Council of Europe as a Trainer to Address Hate Speech using Human Rights Education. When she's not learning with and from the children she's around, she's an acclaimed dancer, a passionate letter writer (no surprises there!) and an avid traveller.
+  testimonial: Too often we underestimate the power of a touch, a smile, a kind word, a listening ear, an honest compliment, or the smallest act of caring, all of which have the potential to turn a life around.' wrote Leo Buscaglia. I (and my incredible team) took it rather too seriously :)
+  linkedin: https://www.linkedin.com/in/pooja-pradeep/
+  instagram: https://www.instagram.com/pooja.pradeep/
+  facebook: https://www.facebook.com/pooja.pradeep.1804
+  email: pooja@letters-of-love.org
+  website: https://pooja-pradeep.squarespace.com/
+- name: Shivani
+  surname: Desai
+  title: Creative Director
+  department: leadership
+  picture: https://raw.githubusercontent.com/lettersoflove/site/master/source/images/team/Shivani-Desai1.jpg
+  age: 22
+  location: Mumbai, India
+  bio: Shivani Desai is a self- taught freelance graphic designer based out of Mumbai,
+    India and a  graduate in Business Administration. After almost 4 years and 70+
+    clients from the design industry, she has her own Brand Strategy and Design Consultancy
+    (DeTalks Designs) that aims at elevating the quality of design solutions provided
+    to businesses. Her aim is to be able to harness the true power of design and visual
+    communication to make an impact on the world and ultimately the humans that reside
+    in it. The belief that everyone has the ability to make a ripple of change starting
+    within themselves is what makes her commited to Letters of Love and it's mission.
+  testimonial: I had signed up for a Peer Couselling Group during my school days.
+    They trained us to deal with cases of trauma, abuse and varying levels of mental
+    illnesses. Most importantly, they emphasised on how valuable 'communication' and
+    'listening' was in this entire exercise. The whole mission was about having a
+    physical reminder that love and empathy still existed in the world. There is nothing
+    else that's more powerful than a few words of support in the darkest hour. Every
+    other shred of support can then be found within. What I learnt then, stuck with
+    me for life... so years later, when I heard about Letters of Love, it was hard
+    not to be tempted to participate alongside. This is the one place where everyone
+    believes in the strength of solidarity, and I wanted to be amongst the few who
+    brewed more of it.
+  linkedin: https://www.linkedin.com/in/shivani-desai-detalks/
+  instagram: https://www.instagram.com/shivie_d/
+  facebook: https://www.facebook.com/shivied
+  email: shivanid@letter-of-love.org
+  website: www.letsdetalks.com
+- name: Sharon
+  surname: Vincent
+  title: Human Resources Director
+  department: leadership
+  picture: https://raw.githubusercontent.com/lettersoflove/site/master/source/images/leadership/SHARON.jpg
+  age: 24
+  location: Perth, Australia
+  bio: Sharon Vincent holds a Bachelor’s Degree of Nursing from the University of
+    Notre Dame, Fremantle and is currently pursuing a post-graduate degree in Medicine,
+    alongside working as a full-time nurse. She finds the ultimate happiness in positively
+    influencing people’s lives in any way she can, using her capacity as an individual,
+    a nurse and a medical student.
+  testimonial: Letters of Love is an amazing team of young people from all over the
+    world doing incredible things. The team is so inspiring in the way they genuinely
+    care about the refugee issue and how proactively they work in their respective
+    areas. My most favourite part is the chance that I get to work alongside our student
+    ambassadors. I am always amazed and inspired by them. If you ask me what the most
+    exciting part about Letters of Love is, it is definitely creating leaders out
+    of 14 year olds and seeing them become change agents in their communities.
+  linkedin: 
+  instagram: 
+  facebook: 
+  email: 
+  website: 
+- name: Shruthi
+  surname: Vijayan
+  title: Communications Director
+  department: leadership
+  picture: https://raw.githubusercontent.com/lettersoflove/site/master/source/images/team/Shruthi1.jpg
+  age: 25
+  location: 'Abu Dhabi, United Arab Emirates '
+  bio: "Shruthi has lived most of her live in the United Arab Emirates. After having
+    completed her undergraduate in India and postgraduate in the United Kingdom, she
+    currently resides in the desert.  \n\nShe works as a Features Manager for an events
+    company in Abu Dhabi. She is constantly on the lookout for opportunities that
+    pose a learning curve and a challenge. If you feel you would like to collaborate
+    with Letters of Love on a campaign, or even simply exchange memes, recommend movies
+    /TV shows (please do!) , drop her a line ! \n\n"
+  testimonial: 'Letters of Love combines two things I find invaluable – handmade gifts
+    & being kind. I have followed Letters of Love from its inception and through my
+    role at the organisation, seen first-hand the impact a simple letter with a smile
+    can make. I am confident that Letters of Love with its motto and vision has the
+    potential to develop holistic programs for refugee children that combines art
+    and education seamlessly. I have seen students understand the essence of the organisation
+    and conduct events in their community to spread awareness about causes dear to
+    them. At its core, Letters of Love aims to ignite the spark in youngsters to hope
+    for a better future. It instils in them the mind-set to pursue the path they need
+    to breathe air into their dreams. '
+  linkedin: https://www.linkedin.com/in/shruthi-vijayan-96b91812a/
+  instagram: 
+  facebook: 
+  email: shruthi@letters-of-love.org
+  website: 
+- name: Mayank
+  surname: Bansal
+  title: Graphic Designer
+  department: design
+  picture: https://raw.githubusercontent.com/lettersoflove/site/master/source/images/team/MAYANK.jpg
+  description: Mayank is Letters of Love’s in-house Graphic Designer. He creates visual
+    content for all the various social media platforms used by the organization. He
+    hails from Delhi (India’s capital) and is currently in his final year of the Bachelor
+    of Technology in Computer Science program at the Vellore Institute of Technology.
+  age: 23
+  location: Bangalore, India
+  bio: Mayank Bansal hails from Delhi, India and is currently working as a Software
+    Developer at Empower Retirement, Bangalore. He holds a Bachelor of Technology
+    degree in Computer Science from the Vellore Institute of Technology. His passion
+    for making the world a better place is his main driving force, pushing him to
+    continue working with Letters of Love and move forward towards his goal. He loves
+    trying his hand at all the things, from that travel and photography are his favourite
+    and he has held several photography exhibitions all over India.
+  testimonial: |-
+    I grew up seeing my parents helping people in any way they could and it’s from the same place that I inculcated the values of helping people to the best of my efforts. It is how the parents are, the same their children become. Because of this whenever I see people in need, I know what is to be done. I saw the dreadful happening in Syria and everybody saw it through their TV’s, newspapers and through social media feed online but everybody sat idle, by believing they are too small to make a significant change.
+    It was then that I felt like I should do something for it as refugees are people who have been through a traumatic experience and need to fly away from their homes as soon as possible in order to survive. They have no time to take money, sell properties and plan their travel; everything happens overnight. I understood the pain that they might be suffering from, especially the children for whom suddenly everything changed. Fortunately, after some time I got to know about Letters of Love through a senior of mine. I learned from him that the organisation needed a Graphic Designer. I knew I had to be a part of this organisation anyhow and here I am working for third consecutive year for Letters of Love. For me, if my work even help bring a smile to even one child then it’s satisfying. One child’s smile can change the world and Letters of Love is doing it for many of them. Proud to be a Part of this initiative by Pooja Pradeep.
+  linkedin: https://www.linkedin.com/in/mayankbansal10/
+  instagram: https://www.instagram.com/mbphotographydelhi/   https://www.instagram.com/mayankbansal17/
+  facebook: https://www.facebook.com/mayankbansal10
+  email: mayank@letters-of-love.org
+  website: 
+- name: Swathi
+  surname: Maroli
+  title: Designer
+  department: design
+  age: 29
+  location: Bangalore, India
+  bio: Swathi is a Textile Designer who graduated from National Institute of Fashion
+    Technology. After working in export houses and the corporate world for six years,
+    she started working as a design faculty in Bangalore where she is currently. Apart
+    from doing some freelance graphic work, she likes to engage herself in crafts
+    like origami and macramé while conducting workshops for her students on the same.
+  testimonial: 'It is an honour to be part of a team of such passionate people. Letters
+    of Love (LoL) with its mission of spreading a smile through handwritten letters
+    is so simple but yet very powerful. LoL spreads love, support and kindness to
+    people who are otherwise neglected and reminds them that they are not alone. '
+  linkedin: 
+  instagram: 
+  facebook: 
+  email: 
+  website: 
+- name: Liyana
+  surname: Shirin
+  picture: https://raw.githubusercontent.com/lettersoflove/site/master/source/images/team/Liyana.jpg
+  title: Graphic Designer
+  department: design
+  age: 23
+  location: Bangalore, India
+  bio: Liyana Shirin is a modest; amateur graphic designer. She has an eye for the
+    smallest detail, which gives a flair to her designs. She is a dynamic person when
+    it comes to taking initiatives. She has received various “Best Blogger” titles
+    for her beautiful way of writing. Liyana is always up for actions that involve
+    making the young generation smile. Apart from being a social butterfly, she can
+    gracefully make your heart fall for her, with her dance.
+  testimonial: A seed nurtured and moulded with love will bloom; passing on a smile
+    to everyone who watches the journey. I learnt that even the smallest impact can
+    make the biggest change. Sometimes it is always about the first step you make,
+    that makes all the difference. Letters of Love does all of it.
+  linkedin: https://www.linkedin.com/in/liyanashirink
+  instagram: https://instagram.com/liyana.shirin?igshid=ye2kbvmttjs
+  facebook: 
+  email: liyana@letters-of-love.org
+  website: liyanashirin.wordpress.com
+- name: Mohammed
+  surname: Ahmed
+  title: Operations Manager, Palestine
+  department: operations
+  age: 
+  location: Qalqylya , Palestine
+  bio: 'Mohammed Ahmed is born and raised in Qalqylya, Palestine. He holds a Bachelor''s
+    degree in English Teaching Methodologies and is currently pursuing a Master''s
+    degree in the same field. He works as an English Teacher and tutor. He created
+    the first English Summer Camp and English Club "English for a better Future" in
+    his village. He is an alum of both Encompass: Journey of Understanding program
+    in Cyprus and NSL program in Washington DC. He also volunteered in different refugee
+    camps in Nablus with Project Hope organization. '
+  testimonial: 'I believe in LOL because it cares for refugee camps all over the world
+    and not only in my country. We as Palestinians have always felt like we need to
+    do something for our families in refugee camps in here, but since we have the
+    Israeli occupation, we barely have a thing to offer for the families in the camps
+    here. But now since I am a part of LOL and surrounded by really nice people who
+    also care for those who I care for as well, I feel like I am doing something really
+    big that not anyone is doing. This is all because of the help of LOL and all their
+    staff. I believe in LOL because it "believes in" love and humanity. Those two
+    elements are so important in our lives and so important if we are planning to
+    make others smile or enjoy their lives and feel no difference at all. Moreover,
+    LOL deals with refugees from different religions, different cultures and different
+    regions which means it believes in diversity and this is something I find  attractive
+    and inspiring. All what it takes is a letter to draw a smile on others'' faces. '
+  linkedin: 
+  instagram: 
+  facebook: https://www.facebook.com/profile.php?id=100007626077945
+  email: jemmy@letters-of-love.org
+  website: 
+- name: Rasha
+  surname: Falhoot
+  department: operations
+  title: Operations Manager, Syria
+  picture: https://raw.githubusercontent.com/lettersoflove/site/master/source/images/team/Rasha-Falhout.jpg
+  age: 38
+  location: Al Swaida, Syria
+  bio: Rasha Falhout holds a Bachelor’s Degree in Translation and a Master’s Degree
+    in Human Resources. She has worked as a freelance yoga trainer, occasionally providing
+    some voluntary programs to corporates and schools, as well as an academic counselor.
+    She has also volunteered to train teachers regarding methods of modern education,
+    specifically in psychological support for children in Syria, Egypt and India.
+    Rasha is passionate about seeing a better world where equality prevails and no
+    discrimination occurs. She has vowed to do whatever she can to achieve this dream.
+  testimonial: I love it because it is global. After the experience of working with
+    LOL, I saw its wonderful team members, who are loving and co-operative. Moreover
+    it spreads love, empathy and respect for the feelings of others , which are real
+    need of today's mankind.
+  linkedin: 
+  instagram: 
+  facebook: 
+  email: 
+  website: 
+- name: Habeeba
+  surname: Hashem
+  department: operations
+  picture: https://raw.githubusercontent.com/lettersoflove/site/master/source/images/team/HABEEBA.jpg
+  title: Operations Manager, Egypt
+  age: 22
+  location: Cairo, Egypt
+  bio: 'Habeeba is a freelance writer, educator and marketer. She holds a Bachelor''s
+    Degree in Business Marketing, and is pursuing postgraduate studies in Community
+    Psychology. She has worked with children and teenagers for over five years, designing
+    and delivering programs based on collaborative education and experiential learning.
+    In the little time she has when she''s not holding endless reflection discussions
+    with students, Habeeba lives in the heart of the woods of Maine as a camp counselor
+    at Seeds of Peace International Camp, painting, dancing and playing the Ukulele
+    with teenagers ailing from areas of conflict across the world. She is also on
+    a never-ending hunt for the world''s best gelato - a title currently held by a
+    little boutique-style shop in Rome, Italy. '
+  testimonial: "“I have an unrelenting belief in the youth of our world – I know they
+    hold in their hands the future of this planet. If we are to stand any chance against
+    the increasingly painful reality of discrimination, violence and hate, we must
+    make sure that younger generations feel empowered and worthy of such feat. Letters
+    of Love may seem like such a simple idea – sending a letter to a child once a
+    year – but it takes a tremendous amount of effort to make it happen, and its results
+    are astonishing. Just wait until you see the smiles on those children’s (thousands)
+    faces, and you’ll realize, we’ve changed something within them. They now know
+    that someone out there is rooting for them and believes they can change this world
+    – indeed they can, and they will.” \n"
+  linkedin: 
+  instagram: 
+  facebook: 
+  email: 
+  website: 
+- name: Sowjanya
+  surname: Iyer
+  title: Operations Manager, Denmark
+  department: operations
+  age: 27
+  location: Aarhus, Denmark
+  bio: '"Going with the wind" : Sowjanya is  originally from Chennai  now working
+    & living in Denmark. She works in the wind energy sector, she has volunteered
+    with evidyaloka to teach kids english via Skype in the small tribal villages in
+    Tamil Nadu. She also heads the Toastmasters Club in Aarhus, Denmark. She is trying
+    to create a world where people can be more open and accept the fact that each
+    one of us is different : step by step changing the world. She tries achieving
+    this by making inspirational speeches across toastmaster clubs and other public
+    forums.'
+  testimonial: I love sending letters, this is actually the way I still communicate
+    with my mother (postcards) and some friends. LOL emphasizes on mental health the
+    importance of which is also one thing I believe the most in, as the world around
+    is not so ready to accept the importance of mental health. And LOL does this by
+    writing letters, so even better. Its all the things I believe in. LOL is also
+    an example of how small and simple initiatives like this can help the world transform
+    into a better place little by little
+  linkedin: https://www.linkedin.com/in/sowjanya-iyer-96787a62
+  instagram: https://www.instagram.com/chowinthehouse/?hl=da
+  facebook: https://www.facebook.com/sowchowbow/
+  email: sowjanya@letters-of-love.org
+  website: 
+- name: Shivani
+  surname: Chimnani
+  title: Blogger
+  department: communications
+  picture: https://raw.githubusercontent.com/lettersoflove/site/master/source/images/team/Shivani-Chimnani.jpg
+  age: 23
+  location: 'Mumbai, India '
+  bio: 'Shivani is a lawyer based out of Mumbai. Her main interests include reading
+    about geo politics and public international law and whining about the depleting
+    democracies worldwide. She first learnt about Letters of Love when she attended
+    the Meet, Greet and Scribble event in November 2016 and joined the bandwagon a
+    year after by deciding to minimally contribute with the power of the written word.
+    She is passionate about writing important and writing funny. '
+  testimonial: I've always been a sucker for words. Words are such a special mode
+    of expression. They help you articulate your feelings like nothing else. Letters
+    of Love has been the perfect platform, allowing me to express love in words and
+    make all the difference.
+  linkedin: https://www.linkedin.com/in/shivani-chimnani-ba2318197/
+  instagram: 
+  facebook: https://www.facebook.com/shivani.chimnani
+  email: shivani@letters-of-love.org
+  website: https://medium.com/@shivanichimnani
+- name: Lamees
+  surname: Shousha
+  title: 'Social Media Manager , Letters of Love Egypt '
+  age: 25
+  department: communications
+  location: Cairo, Egypt
+  bio: Lamees, a multipassionate is currently a business teacher, a social media manager
+    &  personal blogger. She holds a bachelor degree in Pharmacy & is currently completing
+    her masters in Business Adminstration. She also studies event planning, herbalism
+    & digital marketing. She's the co-creator of The Happy Reads Newspaper Egypt and
+    is taking on new projects that will change the world one bit at a time! She always
+    turns to Friends, the tv show, to turn her day around. Additionally, she's a cat
+    mom who also happens to have two amazing dogs! She loves to share what she knows
+    with the world in hopes of benefiting anyone with that knowledge.
+  testimonial: LOL gave me the chance to understand more about refugees and it was
+    such an eye opener, a beam of hope in a world full of horrendous things. To be
+    part of an organization that cares about spreading smiles just lights up my heart
+    and helps me become a better person every single day. When I first came across
+    Letters of Love, I was touched by how a group of people came together for this
+    cause, something sparked in me and that's when I knew I wanted to be part of something
+    bigger. Something that can turn lives around. I'm so grateful to get to be a part
+    of this journey!
+  linkedin: 
+  instagram: https://instagram.com/lameesshousha?igshid=9acwc306epc
+  facebook: 
+  email: lamees.shousha@gmail.com
+  website: www.missknowitl.com
+- name: Sherin
+  surname: Vincent
+  title: Communications Manager
+  department: communications
+  picture: https://raw.githubusercontent.com/lettersoflove/site/master/source/images/team/Sherin-Vincent1-1.jpg
+  age: 21
+  location: Perth, Australia
+  bio: 
+  testimonial: Letters of Love is a community of passionate people making a positive
+    difference in the world, one smile at a time. Even the smallest act of kindness
+    can contribute to a bigger change in the world. This organisation is a great example
+    of that. It is a privilege to work with a team as inspiring and amazing as the
+    team of Letters of Love.
+  linkedin: 
+  instagram: 
+  facebook: 
+  email: 
+  website: 
+- name: Sai
+  surname: Sethu
+  title: Blogger
+  department: communications
+  picture: https://raw.githubusercontent.com/lettersoflove/site/master/source/images/team/sai1.jpg
+  age: 24
+  location: New Delhi, India
+  bio: 'Sai is a mechanical engineer turned news journalist. Currently, he has his
+    own online space called OnTheGround.99 - he explores the stories of extraordinary
+    Indians and the hidden gems of India. '
+  testimonial: I've always believed in the most traditional methods of compassion
+    and communication. Letters of love is testimonial to that. And for that, an envelope,
+    a card and a handwritten message is all it takes.
+  linkedin: 
+  instagram: https://www.instagram.com/ontheground.99/channel/
+  facebook: 
+  email: psy.sethu@gmail.com
+  website: 
+- name: Urvashi
+  surname: Valecha
+  title: Blogger
+  department: communications
+  age: 21
+  location: Mumbai, India
+  bio: 'Always an explorer in an exploratory phase, Urvashi is currently a journalist
+    based in Mumbai. She is passionate about knowing more about the world which is
+    what drew her towards journalism. In her free time, you will find her reading
+    different books and figuring out her plan on what to do next. '
+  testimonial: 'Change cannot be induced without speaking about it, that''s my belief.
+    So, when someone told me about LoL that does just that, I jumped right into it. '
+  linkedin: https://www.linkedin.com/in/urvashi-valecha-b84586135/
+  instagram: 
+  facebook: https://www.facebook.com/urvashi.valecha.5
+  email: 
+  website: https://quiteprecisely.wordpress.com
+- name: Greeshma
+  surname: 
+  title: Blogger
+  department: communications
+  age: 23
+  location: Delhi & Mumbai, India
+  bio: Greeshma is a lawyer based out of Delhi,  she predominantly practices in the
+    field of International trade and immigration.  And has a passion for Human Rights
+    law.  She loves to travel and can be often found in backpackers hostels curled
+    up in a corner with a book or involved in casual conversations about spirituality
+    and universe with fellow travellers.
+  testimonial: I have a plethora of reasons but primarily because I believe in the
+    power of a letter to a smile. Secondly because of the Amazing team working behind
+    LOL.
+  linkedin: 
+  instagram: https://www.instagram.com/greeshmamenon19/?igshid=19k2qc6z1dk5d
+  facebook: 
+  email: greeshmamenonwork@gmail.com
+  website: 
+- name: Laksh
+  surname: Arora
+  department: strategy
+  title: Strategy Manager
+  picture: https://raw.githubusercontent.com/lettersoflove/site/master/source/images/team/Laksh1.jpg
+  age: 31
+  location: Delhi, India
+  bio: Laksh shuffles between his life in the remote hills where he runs a boutique
+    hotel to Delhi where he freelances marketing projects. Once at the pinnacle of
+    the cut-throat world of agency marketing, today he chooses to work in what he
+    believes in.
+  testimonial: Because too many people in this world hate each other without knowing
+    why. And I see Letters make a difference to this at the very grassroots level.
+  linkedin: http://linkedin.com/in/aroralaksh
+  instagram: https://www.instagram.com/aroralaksh
+  facebook: 
+  email: laksh@letters-of-love.org
+  website: 
+- name: Priyanka
+  surname: Shah
+  title: Head - Community Outreach & Financial Aid
+  department: partnerships
+  age: 24
+  location: Mumbai, India.
+  bio: Priyanka is often referred to as the girl with a mind for business and a heart
+    for the world by her friends.  She graduated with a Bachelor's in Business Management
+    Studies from University of Mumbai and received the Superstar of the Year Award
+    and Entrepreneur of the Year Award. She was the Vice President of Enactus H.R
+    College where she co-founded Project Saarthi - a social initiative that aims to
+    impart English language skill-sets by creating teacher entrepreneurs from within
+    the community. Thereafter, she received the Presidential Scholarship and embarked
+    on a study abroad program called Semester at Sea where she travelled to 12 countries
+    across 4 continents and conducted research on educational inequalities. She then
+    received her Master's in Marketing Strategy and Innovation from Cass Business
+    School - City, University of London (Course Ambassador).  She has worked with
+    multifarious companies including TEDxGateway, IBDE, The PRactice - Porter Novelli,
+    Schbang and FoxyMoron. She has had the opportunity to work on the marketing and
+    communication plans for various brands such as Colgate-Palmolive, Tesco, Baskin
+    Robbins, Kerastase, Godrej Expert, Garnier, Zee Cinema, Ecolab, UNESCO, British
+    Asian Trust, Aavishkaar Intellecap & World Bank.  She currently is the Indian
+    Ambassador to the Semester at Sea Program. She is also a director at the Harvard
+    US - India Initiative and a Director of the United Nations Young Changemakers
+    Conclave. She also serves on the Alumni Advisory Board of Talerang and is the
+    co-founder of Feed Me Some Adrenaline - an adventure travel blog highlighting
+    participation opportunities.   Every day, she wakes up with the thought that today
+    isn't just another day. Today, she’ll make a difference. When she’s not sitting
+    at a desk, she volunteers at orphanages and old age homes. Her favourite experience
+    was when she volunteered at a Syrian Refugee Camp in Greece where she lead skill
+    development activities for the refugees' physical and emotional growth.   Outside
+    of her workplace, you'll find her travelling the world, binge-watching FRIENDS
+    and TED talks, boxing, scuba diving, dancing, and scouting for good avocado toast
+    places around town.  If you want to chat with her about her love for marketing,
+    travelling or music (Bonus points to Zina by Babylone fans), please get in touch.
+  testimonial: |-
+    “If you have the power to make someone happy, do it. The world needs more of that.”
+
+    A few months ago, my sister and I volunteered with an organization called Refugee Support Europe at the Katsikas camp in Greece, which is home to tens of thousands of refugees including many Syrian, Afghani and Iraqi families. Tens of thousands of refugees who are currently living in makeshift camps, with limited access to essential supplies and resources, uncertain about if and when they will be able to move on and restart their lives.
+
+    Our experience at the camp was a game changer. We realised that refugees are humans and they need to be treated with dignity. When you grant people dignity, they become dignified. While in Greece, we worked tirelessly with the aim to improve the livelihoods and outcomes for these refugees by prioritising dignity and co-operation. Through our volunteering experience, we treated the refugees as the doctors and teachers and craftsmen they once were. Accepting charity is an ugly business for the spirit. It rubs you raw, especially if you were once someone with pride and lofty goals, someone who shook hands and locked eyes. 
+
+    I believe in Letters of Love because it shares a similar mission of spreading smiles to the refugees and infusing a sense of normality and dignity in their lives through hand-written letters. A sense of belongingness, love and care. A feeling that someone out there is thinking and praying for you and that you are not alone.
+  linkedin: https://www.linkedin.com/in/priyanka-shah-59347a87/
+  instagram: https://www.instagram.com/thisispshah/
+  facebook: https://www.facebook.com/ThisIsPriyanka
+  email: thisispshah@gmail.com
+  website: 
+- name: Rukmini
+  surname: Sengupta
+  title: Partnerships manager
+  department: education
+  picture: https://raw.githubusercontent.com/lettersoflove/site/master/source/images/team/RUKMINI.jpg
+  age: 26
+  location: 'New Delhi, India '
+  bio: "Rukmini is an engineer by education and a digital marketer by profession,
+    along with being a doodler in the little time she scoops out in the 24 hours of
+    a day. She is driven by anything that inflicts passion in others as well as herself.
+    So while she is busy creating masterpieces of work and campaigns for brands making
+    them the talk of the town, she also takes care of university and organisation
+    partnerships for Letters of Love.\n\n"
+  testimonial: '"Start with the smallest things to make the biggest change in the
+    world." This is the belief I work with through each day of my life. Work keeps
+    me busy, no denying but, when I can still do my bit and make someone smile in
+    this world of misery, busy feels like another excuse.'
+  linkedin: 
+  instagram: 
+  facebook: 
+  email: 
+  website: 
+- name: Ella
+  surname: Neville
+  title: Educational Programs Manager
+  department: education
+  picture: https://raw.githubusercontent.com/lettersoflove/site/master/source/images/team/ELLA.jpg
+  age: 24
+  location: Massachusetts, United States of America
+  bio: Ella is a teacher who loves to learn. She was born and raised in Syracuse,
+    New York by parents who are both educators and grew up to value traits like empathy,
+    hopefulness as well as the ability to grow and learn from mistakes. She graduated
+    from the State University of New York at Cortland's School of Education in 2018
+    with a degree in Childhood and Early Childhood Education. Since then, Ella has
+    been a district and building substitute teacher in the public school systems of
+    Syracuse, New York and Somerville, Massachusetts. Also throughout these last few
+    years, Ella has worked as a camp counselor at Seeds of Peace International Summer
+    Camp. This camp is in fact where she met and had the lucky pleasure of working
+    with Letters of Love founder, Pooja Pradeep! Since then she has been hooked to
+    this community of loyal changemakers and digital support systems. She is hopeful
+    that this next 2020-2021 school year will bring her the opportunity to teach in
+    her own classroom and foster young minds through empathy, hopefulness, as well
+    as the ability to grow and learn from mistakes! :)
+  testimonial: I always feel somewhat overwhelmed when I’m asked a question like this
+    one. At it’s core, I’m drawn to Letters of Love because I am a strong believer
+    in the idea that one single person can have a life changing impact on another.
+    All too often my phone buzzes with notifications from BBC and CNN, illustrating
+    tragedy after tragedy; it’s easy to feel helpless in making a difference when
+    the issues are so often advertised as massively hopeless. Letters of Love is a
+    bright light in a world that is commonly portrayed as grey. I believe that we
+    can spread love and support to people who otherwise may be feeling forgotten,
+    reminding them (as well as the rest of the world) that every child, teenager,
+    and adult deserves to feel known and, most importantly, feel loved.
+  linkedin: 
+  instagram: https://www.instagram.com/ellakathleenn/
+  facebook: https://www.facebook.com/ella.bella.9480
+  email: ella@letters-of-love.org
+  website: 
+- name: Gabby
+  surname: Weiss
+  title: Student Ambassador Manager
+  department: education
+  picture: https://raw.githubusercontent.com/lettersoflove/site/master/source/images/team/Gabby-Weiss.jpg
+  age: 16
+  location: Alaska, United States of America
+  bio: Gabby Weiss is a passionate seed (Int Session 2019) from the 10th grade, who
+    is fascinated by this incredible world and thrives on real connections with people.
+    Gabby loves to dance and spend time with her sister. She found Letters of Love
+    after she had decided to collect letters for refugees and was searching for a
+    place to send them. She searched the web and flooded many inboxes and voice mail
+    boxes until she found the LOL founder’s, Pooja's, TEDx Talk. She then reached
+    out to her and it changed Gabby’s life. Gabby is a part of Letters of Love because
+    she knows there is a 16 year old girl out there, somewhere, just like her, who
+    is terrified and whose world is crumbling. Gabby wants her to have hope and feel
+    loved.
+  testimonial: I believe in LOL because our mission is simple, but can change lives!
+    The thing is, every single human being wants to feel loved and supported and valued,
+    so LOL collects letters full of love to send to child refugees to show them our
+    love and support as well as how valued, important and absolutely incredible they
+    are! It is that simple and so important! The other thing about LOL is that we
+    are a bunch of passionate people grouped together and nothing will hold us back!
+  linkedin: 
+  instagram: 
+  facebook: 
+  email: 
+  website: 
+- name: Kenzy
+  surname: Ismail
+  title: Coordinator
+  department: education
+  age: 
+  location: 
+  bio: 
+  testimonial: 
+  linkedin: 
+  instagram: 
+  facebook: 
+  email: 
+  website: 
+- name: Tom
+  surname: Vaillant
+  title: Wizard of light bulb moments
+  department: technology
+  age: 26
+  location: Paris, France
+  bio: 
+  testimonial: While some are of the opinion that great change can only come from
+    powerful individuals or organisations, I'm amongst those who believe in the everyday
+    acts of generosity and kindness from people around the world. Over the years the
+    ripple effects of these handwritten letters and heartfelt smiles can be extraordinary.
+  linkedin: 
+  instagram: 
+  facebook: 
+  email: 
+  website: 
+- name: Bobbie
+  surname: Gottschalk
+  title: Board of Directors
+  department: board
+  picture: https://raw.githubusercontent.com/lettersoflove/site/master/source/images/directors/BOBBIE.jpg
+  age: 76
+  location: Washington DC, USA
+  bio: 
+  testimonial: 
+  linkedin: 
+  instagram: 
+  facebook: 
+  email: 
+  website: 
+- name: Sarah
+  surname: Erwin
+  title: Financial Administrator
+  department: board
+  picture: https://raw.githubusercontent.com/lettersoflove/site/master/source/images/directors/SARAH.jpg
+  age: 28
+  location: NYC, USA
+  bio: 
+  testimonial: 
+  linkedin: 
+  instagram: 
+  facebook: 
+  email: 
+  website: 
+- name: Lijo
+  surname: Chacko
+  title: Board of Directors
+  department: board
+  picture: https://raw.githubusercontent.com/lettersoflove/site/master/source/images/directors/LIJO.jpg
+  age: 52
+  location: Bangalore, India
+  bio: 
+  testimonial: 
+  linkedin: 
+  instagram: 
+  facebook: 
+  email: 
+  website: 

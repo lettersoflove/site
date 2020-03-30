@@ -10,6 +10,7 @@
 <!--     <title><%#= data.meta.title %></title> -->
     <meta name="description" content="<%= data.meta.meta_description %>">
     <meta property="og:image" content="https://chroniclr.co/wp-content/uploads/2019/01/banner_home_progressive.jpg">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
 
     <!-- Facebook Open Graph data -->
     <meta property="og:title" content="<%= data.meta.meta_title %>" />
@@ -40,20 +41,15 @@
   <body>
     <%= yield %>
     <%= javascript_include_tag "application" %>
-      <!-- Matomo -->
-    <script type="text/javascript">
-      var _paq = _paq || [];
-      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-      _paq.push(['trackPageView']);
-      _paq.push(['enableLinkTracking']);
-      (function() {
-        var u="https://sophya.matomo.cloud/";
-        _paq.push(['setTrackerUrl', u+'piwik.php']);
-        _paq.push(['setSiteId', '2']);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.type='text/javascript'; g.async=true; g.defer=true; g.src='//cdn.matomo.cloud/sophya.matomo.cloud/piwik.js'; s.parentNode.insertBefore(g,s);
-      })();
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162046684-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-162046684-1');
     </script>
-    <!-- End Matomo Code -->
+
   </body>
 </html>
