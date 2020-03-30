@@ -86,7 +86,7 @@
   transition: color 0.3s ease;
   font-weight: lighter !important;
   color: #999999;
-  font-size: 14px !important;
+  font-size: 14px;
   padding: 10px 20px;
 }
 
@@ -148,4 +148,20 @@
   font-weight: bolder;
   opacity: 0.8;
   color: white;
+}
+
+.dropdown-mobile {
+  position: absolute;
+  will-change: transform;
+  top: 0px;
+  right: 0;
+  left: 0px;
+  margin-top: 70px !important;
+  transform: none !important;
+
+  li > a {
+    font-size: 16px;
+    padding: 12px;
+    color: black;
+  }
 }
