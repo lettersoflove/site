@@ -1,0 +1,18 @@
+.about-letters-grid {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    flex-wrap: wrap;
+
+    &-item {
+        margin: 10px 10px 20px 10px !important;
+    }
+
+    @media screen and (min-width: 1000px) {
+
+
+        &-item {
+            margin: 12px 12px 20px 12px; 
+        }
+    }
+}
