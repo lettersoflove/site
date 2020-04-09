@@ -16,7 +16,12 @@ configure :build do
   set :relative_links, true
 end
 
-activate :deploy do |deploy|
-  deploy.build_before = true
-  deploy.deploy_method = :git
+# activate :deploy do |deploy|
+#   deploy.build_before = true
+#   deploy.deploy_method = :git
+# end
+
+activate :gh_pages do |gh_pages|
+  gh_pages.remote = 'git@github.com:lettersoflove/site.git'
 end
+# https://github.com/lettersoflove/site.git

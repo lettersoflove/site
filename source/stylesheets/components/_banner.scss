@@ -27,7 +27,14 @@
   background: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://raw.githubusercontent.com/lettersoflove/site/master/source/images/pages/banner_home_progressive.jpg');
   background-position: 50% 30%;
 }
-// ...
+
+.banner-campaign {
+  background-size: cover !important;
+  background: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://raw.githubusercontent.com/lettersoflove/site/master/source/images/pages/banner-home-nurse.jpg');
+  background-position: 50% 30%;
+}
+
+// <a href="https://ibb.co/ChSysD2"><img src="https://i.ibb.co/9sd03St/banner-home-nurse.jpg" alt="banner-home-nurse" border="0"></a>
 #banner-about {
   background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://raw.githubusercontent.com/lettersoflove/site/master/source/images/pages/IMG_3294.jpg');
   background-position: 50% 50%;
@@ -68,7 +75,7 @@
 }
 
 .banner-home h1 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 900;
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
 }
@@ -83,6 +90,23 @@
 
 .banner-button {
   height: 48px;
+  line-height: 48px;
+  background-color: #369ff4;
+  transition: background-color .15s linear;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  border-radius: 4px;
+  border: 0;
+  font-size: 15px;
+  padding: 0 20px;
+  font-weight: 500;
+  display: inline-block;
+  color: #fff;
+  cursor: pointer;
+}
+
+.banner-button-special {
+  margin-top: 20px;
   line-height: 48px;
   background-color: #369ff4;
   transition: background-color .15s linear;

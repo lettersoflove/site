@@ -1,20 +1,3 @@
-GIT
-  remote: https://github.com/lewagon/middleman-deploy.git
-  revision: 4f97af2034d6e7548a172d89a2a37fc263c6c987
-  specs:
-    middleman-deploy (2.0.0.pre.alpha)
-      middleman-core (>= 3.2)
-      net-sftp
-      ptools
-
-GIT
-  remote: https://github.com/rails/sprockets.git
-  revision: 9909da64595ddcfa1e7ee40ed1d99738961288ec
-  specs:
-    sprockets (4.0.0)
-      concurrent-ruby (~> 1.0)
-      rack (> 1, < 3)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -38,7 +21,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    autoprefixer-rails (9.7.5)
+    autoprefixer-rails (9.7.6)
       execjs
     backports (3.17.0)
     bootstrap-sass (3.4.1)
@@ -115,11 +98,12 @@ GEM
       servolux
       tilt (~> 2.0.9)
       uglifier (~> 3.0)
+    middleman-gh_pages (0.9.0)
+    middleman-sprockets (4.0.0)
+      middleman-core (~> 4.0)
+      sprockets (>= 3.0)
     mini_portile2 (2.4.0)
     minitest (5.14.0)
-    net-sftp (2.1.2)
-      net-ssh (>= 2.6.5)
-    net-ssh (5.2.0)
     nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
     padrino-helpers (0.13.3.4)
@@ -135,8 +119,7 @@ GEM
     pry-byebug (3.9.0)
       byebug (~> 11.0)
       pry (~> 0.13.0)
-    ptools (1.3.5)
-    public_suffix (4.0.3)
+    public_suffix (4.0.4)
     rack (2.2.2)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -164,6 +147,9 @@ GEM
       sprockets-rails
       tilt
     servolux (0.13.0)
+    sprockets (4.0.0)
+      concurrent-ruby (~> 1.0)
+      rack (> 1, < 3)
     sprockets-rails (3.2.1)
       actionpack (>= 4.0)
       activesupport (>= 4.0)
@@ -184,13 +170,13 @@ DEPENDENCIES
   bootstrap-sass
   font-awesome-sass
   jquery-middleman
-  middleman
+  middleman (>= 4.0.0)
   middleman-autoprefixer
-  middleman-deploy!
+  middleman-gh_pages
+  middleman-sprockets (~> 4.0.0.rc)
   pry-byebug
-  sassc
+  sassc (~> 2.0)
   sassc-rails
-  sprockets!
 
 BUNDLED WITH
    2.1.2

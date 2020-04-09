@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
 
-gem 'middleman'
+gem 'middleman', '>= 4.0.0'
 gem 'middleman-autoprefixer'
-gem 'sassc'
+gem 'sassc', '~> 2.0'
 gem 'sassc-rails'
-gem 'sprockets', github: 'rails/sprockets'
-gem 'middleman-deploy', git: 'https://github.com/lewagon/middleman-deploy.git'
+gem 'middleman-sprockets', "~> 4.0.0.rc"
+gem 'middleman-gh_pages'
 gem 'pry-byebug', require: true
 
 # Assets
