@@ -1,5 +1,4 @@
 var path = require('path');
-
 module.exports = {
   mode: "production",
   entry: "./assets/javascripts/index.js",
@@ -13,7 +12,7 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        exclude: /(node_modules|bower_components)/,
+        exclude: /(node_modules|bower-components)\/(?!(swiper|dom7)\/).*/,
         use: {
           loader: 'babel-loader',
           options: {
