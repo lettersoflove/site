@@ -5,7 +5,7 @@ gem 'middleman-autoprefixer'
 gem 'sassc', '~> 2.0'
 gem 'sassc-rails'
 gem 'middleman-sprockets', "~> 4.0.0.rc"
-gem 'middleman-gh_pages'
+gem 'middleman-gh-pages'
 gem 'pry-byebug', require: true
 
 # Assets

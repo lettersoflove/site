@@ -21,7 +21,9 @@ end
 #   deploy.deploy_method = :git
 # end
 
-activate :gh_pages do |gh_pages|
-  gh_pages.remote = 'git@github.com:lettersoflove/site.git'
-end
-# https://github.com/lettersoflove/site.git
+# activate :deploy do |deploy|
+#    deploy.method = :git
+#    deploy.build_before = true
+#    deploy.branch   = "master"
+#    deploy.remote   = "git@github.com:lettersoflove/site.git"
+# end
