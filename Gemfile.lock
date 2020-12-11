@@ -98,10 +98,6 @@ GEM
       servolux
       tilt (~> 2.0.9)
       uglifier (~> 3.0)
-    middleman-deploy (1.0.0)
-      middleman-core (>= 3.2)
-      net-sftp
-      ptools
     middleman-gh-pages (0.4.1)
       rake (> 0.9.3)
     middleman-sprockets (4.0.0)
@@ -109,9 +105,6 @@ GEM
       sprockets (>= 3.0)
     mini_portile2 (2.4.0)
     minitest (5.14.0)
-    net-sftp (2.1.2)
-      net-ssh (>= 2.6.5)
-    net-ssh (5.2.0)
     nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
     padrino-helpers (0.13.3.4)
@@ -127,7 +120,6 @@ GEM
     pry-byebug (3.9.0)
       byebug (~> 11.0)
       pry (~> 0.13.0)
-    ptools (1.3.5)
     public_suffix (4.0.4)
     rack (2.2.2)
     rack-test (0.6.3)
@@ -181,7 +173,6 @@ DEPENDENCIES
   jquery-middleman
   middleman (>= 4.0.0)
   middleman-autoprefixer
-  middleman-deploy
   middleman-gh-pages
   middleman-sprockets (~> 4.0.0.rc)
   pry-byebug
@@ -189,4 +180,4 @@ DEPENDENCIES
   sassc-rails
 
 BUNDLED WITH
-   2.1.2
+   2.1.4
