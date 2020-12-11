@@ -21,10 +21,14 @@ $(document).ready(function () {
 
 
 import { teamTabs } from "./team_tabs.js";
+import { partnerTabs } from "./partner_tabs.js";
 import changemakers from "./changemakers.js";
 
 if ( document.querySelector(".team-tabs") ) {
   teamTabs();
+};
+if ( document.querySelector(".partner-tabs") ) {
+  partnerTabs();
 };
 
 if ($(`#js-changemakers`).length > 0) {
