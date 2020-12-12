@@ -8,17 +8,16 @@ title: "Letters of Love - Partners"
     <div class="team-header-no-underline">
       <h2>Partners</h2>
     </div>
-    <div class="partner-tabs">
-      <a class="partner-tab active" data-section="implementation">
-        <p>Implementation</p>
-      </a>
-      <a class="partner-tab" data-section="education">
-        <p>Education</p>
-      </a>
-    </div>
-
-    <!-- PARTNERS -->
+    # <div class="partner-tabs">
+    #   <a class="partner-tab active" data-section="implementation">
+    #     <p>Implementation</p>
+    #   </a>
+    #   <a class="partner-tab" data-section="education">
+    #     <p>Education</p>
+    #   </a>
+    # </div>
     <div class="partner-show-details" data-section="implementation">
+      <h1>Implementation Partners</h1>
       <div class="partners-section col-xs-12 col-sm-10 col-md-6 col-xl-4">
         <% data.implementation_partners.each do |partner| %>
           <% link_to "#{partner.link}", target: "_blank" do %>
@@ -32,7 +31,8 @@ title: "Letters of Love - Partners"
       </div>
     </div>
     <!-- COLLABORATORS -->
-    <div class="partner-show-details hidden" data-section="education">
+    <div class="partner-show-details" data-section="education">
+      <h1>Implementation Partners</h1>
       <div class="partners-section col-xs-12 col-sm-10 col-md-6 col-xl-4">
         <% data.educational_partners.each do |partner| %>
           <% link_to "#{partner.link}", target: "_blank" do %>
